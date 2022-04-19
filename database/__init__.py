@@ -10,7 +10,7 @@ from config import DB_USER, DB_PASSWORD, DB_HOST, DB_NAME
 if all([DB_USER, DB_PASSWORD, DB_HOST, DB_NAME]):
     db_path = "mysql+pymysql://{}:{}@{}/{}?charset=utf8".format(DB_USER, DB_PASSWORD, DB_HOST, DB_NAME)
 else:
-    db_path = "sqlite:///" + join(gettempdir(), "ueberwachungspaket.db")
+    db_path = "sqlite:///" + join(gettempdir(), "luftfilterbegehren.db")
 
 engine = create_engine(db_path, convert_unicode=True, pool_recycle=3600)
 atexit.register(lambda engine: engine.dispose(), engine)

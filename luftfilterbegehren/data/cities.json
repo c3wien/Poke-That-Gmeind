@@ -1,0 +1,38 @@
+{
+  "10101": {
+    "id": 10101,
+    "name": {
+        "name": "Eisenstadt"
+      },
+    "plz": 7000,
+    "contact": {
+      "mail": "rathaus@eisenstadt.at",
+      "phone": "",
+      "facebook": "",
+      "twitter": "",
+      "www": "http://www.eisenstadt.gv.at"
+    }
+  },
+  "10301": {
+    "id": 10301,
+    "name": {
+      "name": "Breitenbrunn am Neusiedler See"
+    },
+    "plz": 7091,
+    "contact": {
+      "mail": "gemeinde@breitenbrunn.at",
+      "www": "http://www.breitenbrunn.at"
+    }
+  },
+  "80222": {
+    "id": 80222,
+    "name": {
+      "name": "Langen bei Bregenz"
+    },
+    "plz": 6932,
+    "contact": {
+      "mail": "gemeinde@langen.at",
+      "www": "http://www.langen.at"
+    }
+  }
+}

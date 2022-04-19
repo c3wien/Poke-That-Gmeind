@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+{% set active_page = "act.cities" %}
+
+{% block title %}
+    <title>Draht zu deinen Gemeinden | {{ config['PROJECT_NAME'] }}</title>
+{% endblock title %}
+
+{% block content %}
+    <section id="aktiv">
+        <h1>Draht zu deinen Gemeinden</h1>
+        <h2>Überzeuge deine Gemeinde, dass wir Luftfilter in öffentlichen Gebäuden benötigen!</h2>
+        <div id="filter" class="column">
+            <form id="states" class="btn-group row" autocomplete="off">
+                <input id="state-b" type="checkbox">
+                <label for="state-b">Bgld.</label>
+                <input id="state-k" type="checkbox">
+                <label for="state-k">Ktn.</label>
+                <input id="state-n" type="checkbox">
+                <label for="state-n">NÖ</label>
+                <input id="state-o" type="checkbox">
+                <label for="state-o">OÖ</label>
+                <input id="state-s" type="checkbox">
+                <label for="state-s">Sbg.</label>
+                <input id="state-st" type="checkbox">
+                <label for="state-st">Stmk.</label>
+                <input id="state-t" type="checkbox">
+                <label for="state-t">T</label>
+                <input id="state-v" type="checkbox">
+                <label for="state-v">Vbg.</label>
+                <input id="state-w" type="checkbox">
+                <label for="state-w">W</label>
+            </form>
+            <form id="name" class="btn-group row" autocomplete="off">
+                <input type="text" size="60" placeholder="Suche im Namen oder der PLZ" />
+            </form>
+        </div>
+        <div id="cities" class="row">
+            {% for city in cities %}
+            <a class="city" id="{{ city.id }}" href="{{ url_for('general.city', prettyname=city.name.prettyname) }}" data-plz="{{ city.plz }}" data-name="{{ city.name.name }}" data-state="{{ city.state }}">
+                <div class="column">
+                    <div class="name">{{ city.name.name }}</div>
+                </div>
+                <img src="{{ url_for('static', filename='img/cities/' + city.imagename + '.png' ) }}" alt="{{ city }}" />
+            </a>
+            {% endfor %}
+        </div>
+        <p class="center small indent">Kontaktdaten der <a href="{{ url_for('static', filename='data/cities.csv') }}">Gemeinden</a> als CSV.</p>
+    </section>
+{% endblock %}

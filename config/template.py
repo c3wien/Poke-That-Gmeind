@@ -1,13 +1,7 @@
 # Debug mode
 DEBUG = True
 
-# Twilio settings.
-TWILIO_NUMBERS = ['']
-TWILIO_ACCOUNT = ''
-TWILIO_SECRET = ''
-TWILIO_APP = ''
-
-# A database is needed to store reminders.
+# A database is needed to store data.
 DB_USER = ''
 DB_PASSWORD = ''
 DB_HOST = ''
