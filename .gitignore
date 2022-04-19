@@ -5,5 +5,3 @@ config/__init__.py
 bin/*
 lib/*
 pyvenv.cfg
-ueberwachungspaket/data/government.json
-ueberwachungspaket/data/representatives.json
