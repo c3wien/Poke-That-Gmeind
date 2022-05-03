@@ -113,7 +113,7 @@ class Cities():
     def get_city_by_id(self, id):
         cities = self.cities
         try:
-            city = [city for city in cities if city.id == id][0]
+            city = [city for city in cities if int(city.id) == int(id)][0]
         except IndexError:
             city = None
         return city
@@ -146,7 +146,7 @@ class Name():
 
 class City():
     def __init__(self, id, name, plz, contact):
-        self.id = id
+        self.id = int(id)
         self.name = name
         self.plz = plz
         self.contact = contact
