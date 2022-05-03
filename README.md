@@ -18,7 +18,7 @@ See below for dependencies.
 # virtualenv
 
 ```bash
-virtualenv -p python3
+virtualenv -p python3 .
 source bin/activate
 pip install -r requirements.txt
 ```
