@@ -131,11 +131,8 @@ class Cities():
 
 
 class Contact():
-    def __init__(self, mail, phone, facebook, twitter):
+    def __init__(self, mail):
         self.mail = mail
-        self.phone = phone
-        self.facebook = facebook
-        self.twitter = twitter
 
 
 class Name():
@@ -198,11 +195,8 @@ def load_cities(filename):
         name = Name(lname["name"])
 
         lcontact = lcity["contact"]
-        twitter = lcontact.get("twitter", "")
-        facebook = lcontact.get("facebook", "")
-        phone = lcontact.get("phone", "")
 
-        contact = Contact(lcontact["mail"], phone, facebook, twitter)
+        contact = Contact(lcontact["mail"])
         city = City(lcity["id"], name, plz, contact)
         cities.append(city)
 
