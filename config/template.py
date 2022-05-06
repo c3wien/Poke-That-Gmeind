@@ -6,6 +6,8 @@ DB_USER = ''
 DB_PASSWORD = ''
 DB_HOST = ''
 DB_NAME = ''
+# postgresql or mysql
+DB_TYPE = ''
 
 # Key used by Flask to encrypt cookies.
 # Check out Flask documentation on how to generate a key.

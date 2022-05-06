@@ -5,10 +5,13 @@ from os.path import join
 from sqlalchemy import create_engine, exc, event, select
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-from config import DB_USER, DB_PASSWORD, DB_HOST, DB_NAME
+from config import DB_USER, DB_PASSWORD, DB_HOST, DB_NAME, DB_TYPE
 
-if all([DB_USER, DB_PASSWORD, DB_HOST, DB_NAME]):
-    db_path = "mysql+pymysql://{}:{}@{}/{}?charset=utf8".format(DB_USER, DB_PASSWORD, DB_HOST, DB_NAME)
+if all([DB_USER, DB_PASSWORD, DB_HOST, DB_NAME, DB_TYPE]):
+    if DB_TYPE == "mysql":
+        db_path = "mysql+pymysql://{}:{}@{}/{}?charset=utf8".format(DB_USER, DB_PASSWORD, DB_HOST, DB_NAME)
+    elif DB_TYPE == "postgresql":
+        db_path = "postgresql+psycopg2://{}:{}@{}/{}".format(DB_USER, DB_PASSWORD, DB_HOST, DB_NAME)
 else:
     db_path = "sqlite:///" + join(gettempdir(), "luftfilterbegehren.db")
 
