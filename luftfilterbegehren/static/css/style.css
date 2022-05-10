@@ -183,7 +183,7 @@ header h1 {
 footer {
     padding: 0.5rem;
     font-size: 85%;
-    background-color: #00466e;
+    background-color: #53AFB8;
     border-top: 3px solid #fff;
     text-align: center;
     overflow: hidden;
@@ -210,8 +210,8 @@ footer li + li::before {
 header {
     margin: 0;
     padding: 10px 0;
-    background-color: #fff;
-    border-bottom: 6px solid #c80000;
+    background-color: #BDB395;
+    border-bottom: 6px solid #53AFB8;
     z-index: 2;
 }
 
@@ -332,11 +332,11 @@ section:first-of-type {
 }
 
 section:nth-child(even) {
-    background-color: #FFF;
+    background-color: #BDB395;
 }
 
 section:nth-child(odd) {
-    background-color: #EEE;
+    background-color: #BDB395;
 }
 
 
@@ -356,7 +356,7 @@ section::before {
 }
 
 section + section::before {
-    border-top: 40px solid #EEE;
+    border-top: 40px solid #E0BD53;
 }
 
 abbr {
@@ -1180,7 +1180,7 @@ nav > ul > li.active {
     padding: 1em;
 }
 .c-block{
-    background: #FFF;
+    background: #;
     padding: 10px;
     transition: all 0.3s ease;
     min-height: 170px;
@@ -1208,7 +1208,7 @@ nav > ul > li.active {
 }
 
 .c-block img:hover {
-    border: 3px solid #C80000;
+    border: 3px solid #134C52;
 }
 
 .be-active-block {
@@ -1455,7 +1455,7 @@ nav > ul > li.active {
 }
 #sicherheit{
     color: #fff;
-    background: #449d44;
+    background: #134C52;
 }
 #sicherheit h2,#sicherheit h3{
     color: #fff;
@@ -1486,7 +1486,7 @@ section{
 
 .banner {
     line-height: 0;
-    border-bottom: 6px solid #c80000;
+    border-bottom: 6px solid #53AFB8;
 }
 .banner > img {
     width: 100%;
