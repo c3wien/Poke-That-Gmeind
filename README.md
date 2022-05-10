@@ -11,6 +11,7 @@ See below for dependencies.
 
 # Dependencies
 
+- python 3.10 (!)
 - Flask 1.X https://flask.palletsprojects.com/en/1.1.x/
 - SQLAlchemy https://docs.sqlalchemy.org/en/14/
 - PyMySQL https://pymysql.readthedocs.io/en/latest/
