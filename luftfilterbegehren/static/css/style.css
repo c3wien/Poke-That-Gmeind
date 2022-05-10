@@ -301,12 +301,12 @@ section:first-of-type {
         width: 2.5rem;
         height: 2.5rem;
         background: linear-gradient(
-        to bottom, 
-        #00466e, #00466e 20%, 
-        white 20%, white 40%, 
-        #00466e 40%, #00466e 60%, 
-        white 60%, white 80%, 
-        #00466e 80%, #00466e 100% 
+        to bottom,
+        #00466e, #00466e 20%,
+        white 20%, white 40%,
+        #00466e 40%, #00466e 60%,
+        white 60%, white 80%,
+        #00466e 80%, #00466e 100%
         );
     }
 
@@ -1093,7 +1093,7 @@ div.center > p,
 .profile {
     position: relative;
     max-width: 98%;
-    margin: 1rem auto 2rem;
+    margin: 1rem auto 0;
     border: 6px solid;
     border-radius: 10px;
     display: inline-block;
@@ -1219,7 +1219,7 @@ nav > ul > li.active {
 .be-active-block img{
     height: 140px;
     margin-bottom: 20px;
-} 
+}
 
 .be-active-block h5 {
     font-size: 14px;
