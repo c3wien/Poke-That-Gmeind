@@ -44,6 +44,7 @@
             <div class="textarea">{{ config['MAIL_CITY']|e }}</div>
             <button class="btn btn-default">Senden</button>
             <p class="center small indent">Wenn du diese Nachricht abändern möchtest, kannst du die E-Mail <a href="mailto:{{ city.contact.mail }}?subject={{ config['PROJECT_NAME'] }}">direkt</a> verschicken.</p>
+            <p class="center small indent">Falls diese Gemeinde bereits Luftfilter installiert bzw. Pläne dazu hat, entfernen wir den Eintrag gern aus unserer Datenbank. Dazu reicht ein formloses E-Mail <a href="mailto:wirhabenschon@luftfilterbegehren.at?subject={{ city }} hat schon.">an uns</a>.</p>
         </form>
     </section>
     {% endif %}
