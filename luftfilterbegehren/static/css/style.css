@@ -991,13 +991,19 @@ div.center > p,
     margin-bottom: 20px;
 }
 
+.city.cmv-False {
+  color: #f00;
+}
+.city.cmv-True {
+  color: #0f0;
+}
+
 .city {
     position: relative;
     width: 137.15px;
     height: 190px;
     margin: 0;
     padding: 0;
-    color: inherit;
     text-align: center;
     transition: width 0.3s ease;
     margin-left: 3px;

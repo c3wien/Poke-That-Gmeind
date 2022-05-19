@@ -36,7 +36,7 @@
         </div>
         <div id="cities" class="row">
             {% for city in cities %}
-            <a class="city" id="{{ city.id }}" href="{{ url_for('general.city', prettyname=city.name.prettyname) }}" data-plz="{{ city.plz }}" data-name="{{ city.name.name }}" data-state="{{ city.state }}">
+            <a class="city cmv-{{ city.cmv }}" id="{{ city.id }}" href="{{ url_for('general.city', prettyname=city.name.prettyname) }}" data-plz="{{ city.plz }}" data-name="{{ city.name.name }}" data-state="{{ city.state }}">
                 <div class="column">
                     <div class="name">{{ city.name.name }}</div>
                 </div>
