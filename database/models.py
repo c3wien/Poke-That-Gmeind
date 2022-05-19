@@ -145,13 +145,14 @@ class Name():
 
 
 class City():
-    def __init__(self, id, name, plz, contact):
+    def __init__(self, id, name, plz, contact, cmv):
         self.id = int(id)
         self.name = name
         self.plz = plz
         self.contact = contact
         self.state = get_state_from_id(id)
         self.imagename = get_imagename_from_id(id)
+        self.cmv = cmv
 
     def __repr__(self):
         return self.name.name
@@ -195,6 +196,10 @@ def load_cities(filename):
         lcity = lcities[lcitykey]
         lname = lcity["name"]
         plz = lcity["plz"]
+        if "cmv" in lcity:
+            cmv = lcity["cmv"]
+        else:
+            cmv = False
         name = Name(lname["name"])
 
         lcontact = lcity["contact"]
@@ -203,7 +208,7 @@ def load_cities(filename):
         phone = lcontact.get("phone", "")
 
         contact = Contact(lcontact["mail"], phone, facebook, twitter)
-        city = City(lcity["id"], name, plz, contact)
+        city = City(lcity["id"], name, plz, contact, cmv)
         cities.append(city)
 
     return cities
