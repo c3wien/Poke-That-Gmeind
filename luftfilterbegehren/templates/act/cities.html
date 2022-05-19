@@ -7,8 +7,13 @@
 
 {% block content %}
     <section id="aktiv">
+        {% if hall_of_fame %}
+          <h1>Hall of Fame<h1>
+          <h2>Diese Gemeinden haben gemäss eigener Aussage bereits Luftfilter in öffentlichen Gebäuden.</h2>
+        {% else %}
         <h1>Draht zu deinen Gemeinden</h1>
         <h2>Überzeuge deine Gemeinde, dass wir Luftfilter in öffentlichen Gebäuden benötigen!</h2>
+        {% endif %}
         <div id="filter" class="column">
             <form id="states" class="btn-group row" autocomplete="off">
                 <input id="state-b" type="checkbox">
