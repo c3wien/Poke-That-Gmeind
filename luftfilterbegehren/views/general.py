@@ -52,12 +52,6 @@ def city(prettyname):
 def share():
     return render_template("general/share.html")
 
-
-@mod.route("/unterstützer/")
-def supporters():
-    return render_template("general/supporters.html")
-
-
 @mod.route("/faq/")
 def faq():
     return render_template("general/faq.html")
