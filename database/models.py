@@ -4,11 +4,8 @@ from datetime import datetime
 from json import load
 from random import choice
 from uuid import uuid4
-from smtplib import SMTP
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-from email.mime.application import MIMEApplication
 from flask import url_for
+import flask_mail
 from sqlalchemy import UniqueConstraint, Column, Boolean, Integer, String, Date, DateTime, ForeignKey, Text
 from sqlalchemy import func
 from sqlalchemy.orm import relationship
@@ -17,26 +14,13 @@ from config import DEBUG, MAIL_FROM, MAIL_DEBUG
 from config.mail import *
 from . import Base
 
-def sendmail(addr_from, addr_to, subject, msg, attachment=None, attachment_name=None):
-    if not attachment:
-        mail = MIMEText(msg)
-    else:
-        mail = MIMEMultipart()
-        mail.attach(MIMEText(msg))
-        app = MIMEApplication(attachment)
-        app['Content-Disposition'] = 'attachment; filename="%s"' % attachment_name
-        mail.attach(app)
 
-    mail["Subject"] = subject
-    mail["From"] = addr_from
-    if type(addr_to) == str:
-        mail["To"] = addr_to
-    else:
-        mail["To"] = ', '.join(addr_to)
-
-    with SMTP("localhost") as s:
-        s.send_message(mail)
-
+def sendmail(addr_from, addr_to, subject, body):
+    mail = flask_mail.Mail()
+    msg = flask_mail.Message(subject, sender=addr_from)
+    msg.add_recipient(addr_to)
+    msg.body = body
+    mail.send(msg)
 
 class Mail(Base):
     __tablename__ = "mails"
@@ -145,13 +129,14 @@ class Name():
 
 
 class City():
-    def __init__(self, id, name, plz, contact):
+    def __init__(self, id, name, plz, contact, cmv):
         self.id = int(id)
         self.name = name
         self.plz = plz
         self.contact = contact
         self.state = get_state_from_id(id)
         self.imagename = get_imagename_from_id(id)
+        self.cmv = cmv
 
     def __repr__(self):
         return self.name.name
@@ -195,6 +180,10 @@ def load_cities(filename):
         lcity = lcities[lcitykey]
         lname = lcity["name"]
         plz = lcity["plz"]
+        if "cmv" in lcity:
+            cmv = lcity["cmv"]
+        else:
+            cmv = False
         name = Name(lname["name"])
 
         lcontact = lcity["contact"]
@@ -203,7 +192,7 @@ def load_cities(filename):
         phone = lcontact.get("phone", "")
 
         contact = Contact(lcontact["mail"], phone, facebook, twitter)
-        city = City(lcity["id"], name, plz, contact)
+        city = City(lcity["id"], name, plz, contact, cmv)
         cities.append(city)
 
     return cities

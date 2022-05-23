@@ -7,6 +7,13 @@ DB_PASSWORD = ''
 DB_HOST = ''
 DB_NAME = ''
 
+# a mail server is needed
+MAIL_HOST = ''
+MAIL_PORT = ''
+MAIL_USERNAME = ''
+MAIL_PASSWORD = ''
+MAIL_USE_TLS = False
+
 # Key used by Flask to encrypt cookies.
 # Check out Flask documentation on how to generate a key.
 SECRET_KEY = b''
