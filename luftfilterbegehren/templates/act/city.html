@@ -8,11 +8,6 @@
 {% block content %}
     <section class="column">
         <h1>{{ city.fullname() }}</h1>
-        <div class="profile-adjustment">
-            <div class="profile">
-                <img src="{{ url_for('static', filename='img/cities/' + city.imagename + '.png' ) }}" alt="{{ city }}" />
-            </div>
-        </div>
     </section>
     {% if not city.cmv %}
       {% if city.contact.mail|length > 0 %}
