@@ -67,9 +67,8 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    font-family: "Oswald", sans-serif;
     font-weight: bold;
-    color: #00466e;
+    color: #134C52;
 }
 
 h1, h2 {
@@ -114,9 +113,10 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
 }
 
 p {
-    line-height: 1.42857143em;
+    line-height: 1.75em;
     margin-top: 0.25rem;
     margin-bottom: 1rem;
+    font-size: 1.25em;
 
 }
 
@@ -129,7 +129,7 @@ p:last-child {
 }
 
 p > a {
-    color: #00a5eb;
+    color: #134C52;
     border-bottom: 1px solid rgba(0, 165, 235, 0);
     -webkit-transition: color 0.3s ease, border-bottom 0.3s ease;
     transition: color 0.3s ease, border-bottom 0.3s ease;
@@ -138,7 +138,7 @@ p > a {
 p > a:hover,
 p > a:focus {
     color: inherit;
-    border-bottom: 1px solid rgba(0, 165, 235, 1);
+    border-bottom: 1px solid #134C52;
 }
 
 a {
@@ -184,7 +184,6 @@ footer {
     padding: 0.5rem;
     font-size: 85%;
     background-color: #53AFB8;
-    border-top: 3px solid #fff;
     text-align: center;
     overflow: hidden;
 }
@@ -226,7 +225,7 @@ nav > ul {
 }
 
 nav > ul > li {
-    color: #00466e;
+    color: #134C52;
     cursor: pointer;
     border-radius: 2px;
 }
@@ -239,15 +238,15 @@ nav > ul > li > a {
 
 nav > ul > li.active {
     color: #fff;
-    background-color: #c80000;
+    background-color: #134C52;
 }
 
 nav > ul > li:hover {
-    background-color: #00466e;
+    background-color: #134C52;
 }
 
 nav > ul > li:hover > a {
-    color: #fff;
+    color: #E0BD53;
 }
 
 section {
@@ -725,14 +724,14 @@ label.space {
     transition: .3s ease;
 }
 
-.btn.btn-default {
-    background: rgba(200, 0, 0, 1);
-    color: #fff;
+.btn.btn-default,.btn.btn-back {
+    background: rgba(19, 76, 82, 1);
+    color: #E0BD53;
 }
 
 .btn:hover {
-    color: #fff;
-    background:#e00;
+    color: #000;
+    background:#53AFB8;
 }
 
 
@@ -871,7 +870,7 @@ div.center > p,
     width: 75px;
     margin: 1rem;
     padding: 0;
-    color: #00466e;
+    color: #134C52;
     font-size: 250%;
     background-color: #fff;
     border: none;
@@ -879,7 +878,7 @@ div.center > p,
 }
 
 .share:hover {
-    color: #c80000;
+    color: #53AFB8;
 }
 
 #preview {
@@ -1149,10 +1148,7 @@ nav > ul > li:nth-of-type(2) > a:hover {
 }
 */
 
-nav > ul > li.active {
-    color: #fff;
-    background-color: #00466e;
-}
+
 .block{
     display: flex;
     align-items: center;
@@ -1458,21 +1454,6 @@ nav > ul > li.active {
 }
 .center h2{
     padding: 15px 0;
-}
-#sicherheit{
-    color: #fff;
-    background: #134C52;
-}
-#sicherheit h2,#sicherheit h3{
-    color: #fff;
-
-    letter-spacing: 0.8px;
-}
-#sicherheit p{
-margin-top: 15px;
-}
-#sicherheit h3{
-    padding: 0 0 15px;
 }
 .aktivgreen:before {
     border-top: 40px solid #449d44!important;
