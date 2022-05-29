@@ -992,13 +992,18 @@ div.center > p,
 }
 
 .city.cmv-False {
-  color: #f00;
+  background-color: #e0bd53;
 }
 .city.cmv-True {
-  color: #0f0;
+  background-color: #8fbec2;
+}
+
+div#cities a:hover div.column div.name {
+  color: #e0bd53;
 }
 
 .city {
+    color: #134c52;
     position: relative;
     width: 137.15px;
     height: 190px;
@@ -1006,7 +1011,8 @@ div.center > p,
     padding: 0;
     text-align: center;
     transition: width 0.3s ease;
-    margin-left: 3px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .city .column {
@@ -1015,8 +1021,6 @@ div.center > p,
     justify-content: flex-end;
     width: 100%;
     height: 100%;
-    padding-bottom: 0.5rem;
-    text-shadow: 0px 0px 2px #000;
     z-index: 10;
 }
 
@@ -1054,6 +1058,8 @@ div.center > p,
     font-size: 14px;
     font-weight: bold;
     z-index: 10;
+    background-color: #53afb8;
+    padding: 0.3em;
 }
 
 .city img {
