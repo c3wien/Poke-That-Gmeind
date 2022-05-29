@@ -14,39 +14,48 @@
             </div>
         </div>
     </section>
-    {% if city.contact.mail|length > 0 %}
-    <section id="email-senden">
-        <h2><a name="email"></a><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i> E-Mail senden</h2>
-        <form id="mail" autocomplete="off" class="shrunk" action="{{ url_for('act.mail') }}" method="post">
-            {% with messages = get_flashed_messages() -%}
-                {% if messages -%}
-                    {% for message in messages -%}
-                        <p>{{ message }}</p>
-                    {% endfor -%}
-                {% endif -%}
-            {% endwith -%}
-            <div class="row row-space align-left">
-                <div class="column">
-                    <label for="mail-firstname">Vorname *</label>
-                    <input type="text" name="firstname" id="mail-firstname" required="required">
-                </div>
-                <div class="column">
-                    <label for="mail-lastname">Nachname *</label>
-                    <input type="text" name="lastname" id="mail-lastname" required="required">
-                </div>
-                <div class="column">
-                    <label for="mail-email">E-Mail *</label>
-                    <input type="email" name="email" id="mail-email" required="required">
-                </div>
-            </div>
-            <p class="small">* Pflichtfeld</p>
-            <input type="hidden" name="id" value="{{ city.id }}" />
-            <div class="textarea">{{ config['MAIL_CITY']|e }}</div>
-            <button class="btn btn-default">Senden</button>
-            <p class="center small indent">Wenn du diese Nachricht abändern möchtest, kannst du die E-Mail <a href="mailto:{{ city.contact.mail }}?subject={{ config['PROJECT_NAME'] }}">direkt</a> verschicken.</p>
-        </form>
-    </section>
+    {% if not city.cmv %}
+      {% if city.contact.mail|length > 0 %}
+      <section id="email-senden">
+          <h2><a name="email"></a><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i> E-Mail senden</h2>
+          <form id="mail" autocomplete="off" class="shrunk" action="{{ url_for('act.mail') }}" method="post">
+              {% with messages = get_flashed_messages() -%}
+                  {% if messages -%}
+                      {% for message in messages -%}
+                          <p>{{ message }}</p>
+                      {% endfor -%}
+                  {% endif -%}
+              {% endwith -%}
+              <div class="row row-space align-left">
+                  <div class="column">
+                      <label for="mail-firstname">Vorname *</label>
+                      <input type="text" name="firstname" id="mail-firstname" required="required">
+                  </div>
+                  <div class="column">
+                      <label for="mail-lastname">Nachname *</label>
+                      <input type="text" name="lastname" id="mail-lastname" required="required">
+                  </div>
+                  <div class="column">
+                      <label for="mail-email">E-Mail *</label>
+                      <input type="email" name="email" id="mail-email" required="required">
+                  </div>
+              </div>
+              <p class="small">* Pflichtfeld</p>
+              <input type="hidden" name="id" value="{{ city.id }}" />
+              <div class="textarea">{{ config['MAIL_CITY']|e }}</div>
+              <button class="btn btn-default">Senden</button>
+              <p class="center small indent">Wenn du diese Nachricht abändern möchtest, kannst du die E-Mail <a href="mailto:{{ city.contact.mail }}?subject={{ config['PROJECT_NAME'] }}">direkt</a> verschicken.</p>
+              <p class="center small indent">Falls diese Gemeinde bereits Luftfilter installiert bzw. Pläne dazu hat, entfernen wir den Eintrag gern aus unserer Datenbank. Dazu reicht ein formloses E-Mail an wirhabenschon [at] luftfilterbegehren.at, bevorzugt mit Betreff "Gemeinde [NAME] hat schon.</p>
+          </form>
+      </section>
+      {% endif %}
+    {% else %}
+      <section id="hall-of-fame">
+          <h2>Luftfilter vorhanden</h2>
+          Die Gemeinde {{ city.fullname() }} hat gemäß eigener Aussage bereits Luftfilter beschafft.
+      </section>
     {% endif %}
+
 <script>
     MailNameTo = "{{ city }}";
 </script>
