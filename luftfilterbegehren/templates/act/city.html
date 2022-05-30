@@ -13,6 +13,7 @@
       {% if city.contact.mail|length > 0 %}
       <section id="email-senden">
           <h2><a name="email"></a><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i> E-Mail senden</h2>
+          <p class="center">Bitte gibt deinen Namen sowie deine E-Mail-Adresse ein um die Gemeinde {{ city.fullname() }} über die Wirksamkeit von Luftfiltern zu informieren und sie zum Einsatz entsprechender Anlagen auffordern.</p><p class="center">Deine Nachricht an die Gemeinde {{ city.fullname() }} wird erst versendet, wenn du deine E-Mail-Adresse verifiziert hast. Dazu werden wir dir eine E-Mail mit einem Verifizierungslink zuschicken.</p>
           <form id="mail" autocomplete="off" class="shrunk" action="{{ url_for('act.mail') }}" method="post">
               {% with messages = get_flashed_messages() -%}
                   {% if messages -%}
@@ -31,7 +32,7 @@
                       <input type="text" name="lastname" id="mail-lastname" required="required">
                   </div>
                   <div class="column">
-                      <label for="mail-email">E-Mail *</label>
+                      <label for="mail-email">E-Mail-Adresse *</label>
                       <input type="email" name="email" id="mail-email" required="required">
                   </div>
               </div>
@@ -40,7 +41,7 @@
               <div class="textarea">{{ config['MAIL_CITY']|e }}</div>
               <button class="btn btn-default">Senden</button>
               <p class="center small indent">Wenn du diese Nachricht abändern möchtest, kannst du die E-Mail <a href="mailto:{{ city.contact.mail }}?subject={{ config['PROJECT_NAME'] }}">direkt</a> verschicken.</p>
-              <p class="center small indent">Falls diese Gemeinde bereits Luftfilter installiert bzw. Pläne dazu hat, entfernen wir den Eintrag gern aus unserer Datenbank. Dazu reicht ein formloses E-Mail an wirhabenschon [at] luftfilterbegehren.at, bevorzugt mit Betreff "Gemeinde [NAME] hat schon.</p>
+              <p class="center small indent">Falls diese Gemeinde bereits Luftfilter installiert bzw. Pläne dazu hat, entfernen wir den Eintrag gern aus unserer Datenbank. Dazu reicht ein formloses E-Mail an wirhabenschon [at] luftfilterbegehren.at, bevorzugt mit Betreff „Gemeinde {{ city.fullname().upper() }} hat schon.”</p>
           </form>
       </section>
       {% endif %}
