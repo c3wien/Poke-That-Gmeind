@@ -1567,7 +1567,7 @@ section{
 progress {
   position: relative;
   display: inline-block;
-  background: #fff;
+  background: #e0bd53;
   height: 5em;
   width: 100%;
   overflow: hidden;
