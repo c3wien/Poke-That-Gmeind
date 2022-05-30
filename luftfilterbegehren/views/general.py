@@ -8,7 +8,7 @@ citiesObjects = Cities()
 
 @mod.route("/")
 def index():
-    return render_template("general/index.html")
+    return render_template("general/index.html", cities=citiesObjects)
 
 
 @mod.route("/hall-of-fame")
@@ -51,6 +51,7 @@ def city(prettyname):
 @mod.route("/weitersagen/")
 def share():
     return render_template("general/share.html")
+
 
 @mod.route("/faq/")
 def faq():

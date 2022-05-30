@@ -91,8 +91,13 @@ class Sender(Base):
 
 
 class Cities():
+    countcmv = 0
+    count = 0
+
     def __init__(self):
         self.cities = load_cities("cities.json")
+        self.countcmv = sum(city.cmv == True for city in self.cities)
+        self.count = len(self.cities)
 
     def get_city_by_id(self, id):
         cities = self.cities
