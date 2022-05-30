@@ -96,7 +96,7 @@ class Cities():
 
     def __init__(self):
         self.cities = load_cities("cities.json")
-        self.countcmv = sum(city.cmv == "True" for city in self.cities)
+        self.countcmv = sum(city.cmv == True for city in self.cities)
         self.count = len(self.cities)
 
     def get_city_by_id(self, id):
