@@ -1565,3 +1565,19 @@ section{
         display: none;
     }
 }
+
+progress {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  height: 5em;
+  width: 100%;
+  overflow: hidden;
+  border: none;
+}
+progress::-moz-progress-bar {
+  background: #8fbec2;
+}
+progress::-webkit-progress-value {
+  background: #8fbec2;
+}
