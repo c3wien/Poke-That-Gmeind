@@ -45,10 +45,12 @@ Ihr Team von luftfilterbegehren.at
 
 MAIL_VALIDATE = """
 Hallo {name_user},
-vielen Dank für Ihren Einsatz für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen! Damit Ihre E-Mail über www.luftfilterbegehren.at auch abgeschickt werden kann, müssen Sie diesem Link folgen:
+vielen Dank für Ihren Einsatz für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen! Damit Ihre E-Mail über www.luftfilterbegehren.at jetzt abgeschickt werden kann, müssen Sie die Übermittlung Ihres Names ({name_user}) und Ihrer E-Mail-Adresse ({{mail_user}}) an {name_city} bestätigen. Dazu müssen Sie diesem Link folgen:
 {url}
 
-Falls Sie nicht wissen, wieso Sie diese Nachricht erhalten haben, ignorieren Sie diese Nachricht bitte.
+Mehr Informationen zur Verarbeitung Ihrer Daten erhalten Sie auf https://luftfilterbegehren.at/datenschutz/
+
+Falls Sie nicht wissen, wieso Sie diese Nachricht erhalten haben oder mit der übermittlung Ihrer Daten nicht einverstanden sind, ignorieren Sie diese Nachricht bitte.
 
 Schöne Grüße,
 das Team von luftfilterbegehren.at
