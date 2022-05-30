@@ -818,9 +818,7 @@ label.space {
 }
 
 .invisible {
-    width: 0px !important;
-    opacity: 0 !important;
-    filter: Alpha(opacity=0) !important;
+    visibility: collapse;
 }
 
 .noselect {
