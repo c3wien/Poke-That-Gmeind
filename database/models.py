@@ -63,6 +63,7 @@ class Sender(Base):
     hash = Column(String(64), unique=True, nullable=False)
     date_validated = Column(DateTime)
     date_requested = Column(DateTime, nullable=False)
+    recipient = Column(String(5), nullable=False)
 
     def __init__(self, name, email_address):
         self.name = name
