@@ -6,7 +6,7 @@ MAIL_CITY = """
 Liebe Gemeinde {name_city},
 auch wenn viele Maßnahmen erlassen worden sind, ist die Gefahr durch die Covid-19 Pandemie noch nicht vorüber. Neben den Maßnahmen, die die Bundes- und Landesregierungen ergreifen und vorschreiben können, können aber auch Gemeinden etwas zum Schutz vor dieser und anderen Infektionskrankheiten ergreifen. Spezifisch möchte ich die Anschaffung und Installation von Luftqualitätsüberwachung und Lüftungs- bzw. Luftreinigungsgeräten für Schulen, Kindergärten und andere Gemeinderäumlichkeiten (Veranstaltungräume etc.) anregen.
 
-Diese Empfehlung basiert auf dem Ende April 2022 veröffentlichten Arbeitspapier (Version 1.0, [1]) der Forschungsplattform Covid-19 Future Operations. Darin fordern die Mitglieder der Plattform Vorbereitungen für eine mögliche Corona-Welle im Herbst. Unter anderem empfehlen sie unter Punkt 3.3., "Technische/bauliche Adaptierungen" eben die Anschaffung und Installation von Luftqualitätsüberwachung und Lüftungs- bzw. Luftreinigungsgeräten. Weitere Details finden sich bereits im Jänner 2022 in einer Liste an Empfehlungen für den Infektionsschutz in Schulen (Version 1.1, [2]).
+Diese Empfehlung basiert auf dem Ende April 2022 veröffentlichten Arbeitspapier (Version 1.0, [1]) der Forschungsplattform Covid-19 Future Operations. Darin fordern die Mitglieder der Plattform Vorbereitungen für eine mögliche Corona-Welle im Herbst. Unter anderem empfehlen Sie unter Punkt 3.3., "Technische/bauliche Adaptierungen" eben die Anschaffung und Installation von Luftqualitätsüberwachung und Lüftungs- bzw. Luftreinigungsgeräten. Weitere Details finden sich bereits im Jänner 2022 in einer Liste an Empfehlungen für den Infektionsschutz in Schulen (Version 1.1, [2]).
 
 Die Effektivität von Luftreinigungsmaßnahmen wurde bereits in der italienischen Region Marche in einer Vergleichsstudie belegt: in Bildungseinrichtungen (Kindergarten bis Mittelschulen), die mit Lüftungstechnologie ausgerüstet waren, lag die Infektionsrate etwa 80% niedriger als in Einrichtungen ohne solche Ausrüstung ([3]). Auch in Österreich haben einzelne Städte und Gemeinden bereits Luftfilteranlagen u.a. in Schulgebäuden installiert -- es gibt also auch hierzulande bereits Erfahrungswerte, auf die zurück gegriffen werden kann ([4]).
 
@@ -23,6 +23,7 @@ Mit freundlichen Grüßen,
 MAIL_WELCOME = """
 Hallo {name_user},
 wir danken Ihnen herzlich, dass Sie sich für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen stark gemacht haben. Wir würden uns sehr freuen, wenn Sie mithelfen, dass möglichst viele Menschen von luftfilterbegehren.at erfahren. Wir alle sind von der Covid-19 Pandemie und anderen aerosol-übertragenen Infektionskrankheiten betroffen und gemeinsam können wir etwas für unser aller Gesundheit tun.
+
 1))) Senden Sie eine E-Mail an fünf Freund:innen. Hier ist ein Textvorschlag dafür:
 "
 Hallo,
@@ -31,7 +32,10 @@ Bitte schau dir www.luftfilterbegehren.at an und werde selbst für dich und dein
 Hilf mit, unsere Gemeinde vorzubereiten!
 Liebe Grüße,
 "
-2))) Gehen Sie den nächsten Schritt: Bleiben Sie mit Ihrer Gemeinde in Kontakt!
+
+2))) Sollte Ihnen Ihre Gemeinde geantwortet haben, haben wir für Sie unter https://luftfilterbegehren.at/konversationsleitfaden/ einen hilfreichen Gesprächsleitfaden mit Tipps und weitern Informationen zusammengetragen.
+
+3))) Gehen Sie den nächsten Schritt: Bleiben Sie mit Ihrer Gemeinde in Kontakt!
 Die effektivste Art, Politiker:innen ins Gewissen zu reden ist, direkt mit ihnen zu sprechen. Rufen Sie in den nächsten Tagen auf Ihrem Gemeindeamt an, oder besuchen Sie die nächste Gemeinderatssitzung. Erinnern Sie Ihre Vertreter:innen daran -- die nächste Grippesaison kommt bestimmt.
 
 Schöne Grüße,
@@ -41,7 +45,6 @@ Ihr Team von luftfilterbegehren.at
 
 MAIL_VALIDATE = """
 Hallo {name_user},
-
 vielen Dank für Ihren Einsatz für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen! Damit Ihre E-Mail über www.luftfilterbegehren.at auch abgeschickt werden kann, müssen Sie diesem Link folgen:
 {url}
 
