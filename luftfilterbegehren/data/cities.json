@@ -17,8 +17,8 @@
     },
     "plz": 7071,
     "contact": {
-      "mail": "tourismus@freistadt-rust.at",
-      "www": "http://www.rust.at"
+      "mail": "post@rust.bgld.gv.at",
+      "www": "http://www.freistadt-rust.at/"
     }
   },
   "10301": {
@@ -23036,254 +23036,254 @@
   "90101": {
     "id": "90101",
     "name": {
-      "name": "Innere Stadt"
+      "name": "Wien Innere Stadt"
     },
     "plz": "1010",
     "contact": {
-      "mail": "post@mba01.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/innere stadt/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90201": {
     "id": "90201",
     "name": {
-      "name": "Leopoldstadt"
+      "name": "Wien Leopoldstadt"
     },
     "plz": "1020",
     "contact": {
-      "mail": "post@mba02.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/leopoldstadt/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90301": {
     "id": "90301",
     "name": {
-      "name": "Landstraße"
+      "name": "Wien Landstraße"
     },
     "plz": "1030",
     "contact": {
-      "mail": "post@mba03.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/landstraße/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90401": {
     "id": "90401",
     "name": {
-      "name": "Wieden"
+      "name": "Wien Wieden"
     },
     "plz": "1040",
     "contact": {
-      "mail": "post@mba04.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/wieden/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90501": {
     "id": "90501",
     "name": {
-      "name": "Margareten"
+      "name": "Wien Margareten"
     },
     "plz": "1050",
     "contact": {
-      "mail": "post@mba05.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/margareten/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90601": {
     "id": "90601",
     "name": {
-      "name": "Mariahilf"
+      "name": "Wien Mariahilf"
     },
     "plz": "1060",
     "contact": {
-      "mail": "post@mba06.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/mariahilf/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90701": {
     "id": "90701",
     "name": {
-      "name": "Neubau"
+      "name": "Wien Neubau"
     },
     "plz": "1070",
     "contact": {
-      "mail": "post@mba07.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/neubau/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90801": {
     "id": "90801",
     "name": {
-      "name": "Josefstadt"
+      "name": "Wien Josefstadt"
     },
     "plz": "1080",
     "contact": {
-      "mail": "post@mba08.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/josefstadt/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90901": {
     "id": "90901",
     "name": {
-      "name": "Alsergrund"
+      "name": "Wien Alsergrund"
     },
     "plz": "1090",
     "contact": {
-      "mail": "post@mba09.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/alsergrund/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91001": {
     "id": "91001",
     "name": {
-      "name": "Favoriten"
+      "name": "Wien Favoriten"
     },
     "plz": "1100",
     "contact": {
-      "mail": "post@mba10.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/favoriten/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91101": {
     "id": "91101",
     "name": {
-      "name": "Simmering"
+      "name": "Wien Simmering"
     },
     "plz": "1110",
     "contact": {
-      "mail": "post@mba11.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/simmering/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91201": {
     "id": "91201",
     "name": {
-      "name": "Meidling"
+      "name": "Wien Meidling"
     },
     "plz": "1120",
     "contact": {
-      "mail": "post@mba12.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/meidling/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91301": {
     "id": "91301",
     "name": {
-      "name": "Hietzing"
+      "name": "Wien Hietzing"
     },
     "plz": "1130",
     "contact": {
-      "mail": "post@mba13.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/hietzing/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91401": {
     "id": "91401",
     "name": {
-      "name": "Penzing"
+      "name": "Wien Penzing"
     },
     "plz": "1140",
     "contact": {
-      "mail": "post@mba14.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/penzing/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91501": {
     "id": "91501",
     "name": {
-      "name": "Fünfhaus"
+      "name": "Wien Rudolfsheim-Fünfhaus"
     },
     "plz": "1150",
     "contact": {
-      "mail": "post@mba15.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/fünfhaus/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91601": {
     "id": "91601",
     "name": {
-      "name": "Ottakring"
+      "name": "Wien Ottakring"
     },
     "plz": "1160",
     "contact": {
-      "mail": "post@mba16.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/ottakring/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91701": {
     "id": "91701",
     "name": {
-      "name": "Hernals"
+      "name": "Wien Hernals"
     },
     "plz": "1170",
     "contact": {
-      "mail": "post@mba17.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/hernals/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91801": {
     "id": "91801",
     "name": {
-      "name": "Währing"
+      "name": "Wien Währing"
     },
     "plz": "1180",
     "contact": {
-      "mail": "post@mba18.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/währing/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91901": {
     "id": "91901",
     "name": {
-      "name": "Döbling"
+      "name": "Wien Döbling"
     },
     "plz": "1190",
     "contact": {
-      "mail": "post@mba19.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/döbling/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "92001": {
     "id": "92001",
     "name": {
-      "name": "Brigittenau"
+      "name": "Wien Brigittenau"
     },
     "plz": "1200",
     "contact": {
-      "mail": "post@mba20.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/brigittenau/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "92101": {
     "id": "92101",
     "name": {
-      "name": "Floridsdorf"
+      "name": "Wien Floridsdorf"
     },
     "plz": "1210",
     "contact": {
-      "mail": "post@mba21.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/floridsdorf/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "92201": {
     "id": "92201",
     "name": {
-      "name": "Donaustadt"
+      "name": "Wien Donaustadt"
     },
     "plz": "1220",
     "contact": {
-      "mail": "post@mba22.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/donaustadt/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "92301": {
     "id": "92301",
     "name": {
-      "name": "Liesing"
+      "name": "Wien Liesing"
     },
     "plz": "1230",
     "contact": {
-      "mail": "post@mba23.wien.gv.at",
-      "www": "https://www.wien.gv.at/bezirke/liesing/"
+      "mail": "post@ma19.wien.gv.at",
+      "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   }
 }
