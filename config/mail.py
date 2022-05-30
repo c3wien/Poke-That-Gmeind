@@ -6,7 +6,7 @@ MAIL_CITY = """
 Liebe Gemeinde {name_city},
 auch wenn viele Maßnahmen erlassen worden sind, ist die Gefahr durch die Covid-19 Pandemie noch nicht vorüber. Neben den Maßnahmen, die die Bundes- und Landesregierungen ergreifen und vorschreiben können, können aber auch Gemeinden etwas zum Schutz vor dieser und anderen Infektionskrankheiten ergreifen. Spezifisch möchte ich die Anschaffung und Installation von Luftqualitätsüberwachung und Lüftungs- bzw. Luftreinigungsgeräten für Schulen, Kindergärten und andere Gemeinderäumlichkeiten (Veranstaltungräume etc.) anregen.
 
-Diese Empfehlung basiert auf dem Ende April 2022 veröffentlichten Arbeitspapier (Version 1.0, [1]) der Forschungsplattform Covid-19 Future Operations. Darin fordern die Mitglieder der Plattform Vorbereitungen für eine mögliche Corona-Welle im Herbst. Unter anderem empfehlen Sie unter Punkt 3.3., "Technische/bauliche Adaptierungen" eben die Anschaffung und Installation von Luftqualitätsüberwachung und Lüftungs- bzw. Luftreinigungsgeräten. Weitere Details finden sich bereits im Jänner 2022 in einer Liste an Empfehlungen für den Infektionsschutz in Schulen (Version 1.1, [2]).
+Diese Empfehlung basiert auf dem Ende April 2022 veröffentlichten Arbeitspapier (Version 1.0, [1]) der Forschungsplattform Covid-19 Future Operations. Darin fordern die Mitglieder der Plattform Vorbereitungen für eine mögliche Corona-Welle im Herbst. Unter anderem empfehlen sie unter Punkt 3.3., "Technische/bauliche Adaptierungen" eben die Anschaffung und Installation von Luftqualitätsüberwachung und Lüftungs- bzw. Luftreinigungsgeräten. Weitere Details finden sich bereits im Jänner 2022 in einer Liste an Empfehlungen für den Infektionsschutz in Schulen (Version 1.1, [2]).
 
 Die Effektivität von Luftreinigungsmaßnahmen wurde bereits in der italienischen Region Marche in einer Vergleichsstudie belegt: in Bildungseinrichtungen (Kindergarten bis Mittelschulen), die mit Lüftungstechnologie ausgerüstet waren, lag die Infektionsrate etwa 80% niedriger als in Einrichtungen ohne solche Ausrüstung ([3]). Auch in Österreich haben einzelne Städte und Gemeinden bereits Luftfilteranlagen u.a. in Schulgebäuden installiert -- es gibt also auch hierzulande bereits Erfahrungswerte, auf die zurück gegriffen werden kann ([4]).
 
@@ -33,7 +33,7 @@ Hilf mit, unsere Gemeinde vorzubereiten!
 Liebe Grüße,
 "
 
-2))) Sollte Ihnen Ihre Gemeinde geantwortet haben, haben wir für Sie unter https://luftfilterbegehren.at/konversationsleitfaden/ einen hilfreichen Gesprächsleitfaden mit Tipps und weitern Informationen zusammengetragen.
+2))) Sollte Ihnen Ihre Gemeinde geantwortet haben, haben wir für Sie unter https://luftfilterbegehren.at/konversationsleitfaden/ einen hilfreichen Gesprächsleitfaden mit Tipps und weiteren Informationen zusammengetragen.
 
 3))) Gehen Sie den nächsten Schritt: Bleiben Sie mit Ihrer Gemeinde in Kontakt!
 Die effektivste Art, Politiker:innen ins Gewissen zu reden ist, direkt mit ihnen zu sprechen. Rufen Sie in den nächsten Tagen auf Ihrem Gemeindeamt an, oder besuchen Sie die nächste Gemeinderatssitzung. Erinnern Sie Ihre Vertreter:innen daran -- die nächste Grippesaison kommt bestimmt.
@@ -45,12 +45,12 @@ Ihr Team von luftfilterbegehren.at
 
 MAIL_VALIDATE = """
 Hallo {name_user},
-vielen Dank für Ihren Einsatz für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen! Damit Ihre E-Mail über www.luftfilterbegehren.at jetzt abgeschickt werden kann, müssen Sie die Übermittlung Ihres Names ({name_user}) und Ihrer E-Mail-Adresse ({{mail_user}}) an {name_city} bestätigen. Dazu müssen Sie diesem Link folgen:
+vielen Dank für Ihren Einsatz für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen! Damit Ihre E-Mail über www.luftfilterbegehren.at jetzt abgeschickt werden kann, müssen Sie die Übermittlung Ihres Namens ({name_user}) und Ihrer E-Mail-Adresse ({{mail_user}}) an {name_city} bestätigen. Folgen Sie dazu diesem Link:
 {url}
 
 Mehr Informationen zur Verarbeitung Ihrer Daten erhalten Sie auf https://luftfilterbegehren.at/datenschutz/
 
-Falls Sie nicht wissen, wieso Sie diese Nachricht erhalten haben oder mit der übermittlung Ihrer Daten nicht einverstanden sind, ignorieren Sie diese Nachricht bitte.
+Falls Sie nicht wissen, wieso Sie diese Nachricht erhalten haben oder mit der Übermittlung Ihrer Daten nicht einverstanden sind, ignorieren Sie diese Nachricht bitte.
 
 Schöne Grüße,
 das Team von luftfilterbegehren.at
