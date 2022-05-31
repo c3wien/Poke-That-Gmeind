@@ -12,13 +12,15 @@
     {% if not city.cmv %}
       {% if city.contact.mail|length > 0 %}
       <section id="email-senden">
-          <h2><a name="email"></a><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i> E-Mail senden</h2>
-          <p class="center">Bitte gibt deinen Namen sowie deine E-Mail-Adresse ein um die Gemeinde {{ city.fullname() }} über die Wirksamkeit von Luftfiltern zu informieren und sie zum Einsatz entsprechender Anlagen auffordern.</p><p class="center">Deine Nachricht an die Gemeinde {{ city.fullname() }} wird erst versendet, wenn du deine E-Mail-Adresse verifiziert hast. Dazu werden wir dir eine E-Mail mit einem Verifizierungslink zuschicken.</p>
+          <h2><a name="email"></a><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> E-Mail senden</h2>
+          <p class="center">Bitte gibt deinen Namen sowie deine E-Mail-Adresse ein um die Gemeinde {{ city.fullname() }} über die Wirksamkeit von Luftfiltern zu informieren und sie zum Einsatz entsprechender Anlagen auffordern.</p>
+          <p class="center">Deine Nachricht an die Gemeinde {{ city.fullname() }} wird erst versendet, wenn du deine E-Mail-Adresse verifiziert hast. Dazu werden wir dir eine E-Mail mit einem Verifizierungslink zuschicken.</p>
           <form id="mail" autocomplete="off" class="shrunk" action="{{ url_for('act.mail') }}" method="post">
               {% with messages = get_flashed_messages() -%}
                   {% if messages -%}
                       {% for message in messages -%}
-                          <p>{{ message }}</p>
+                          <h2>Beachte:</h2>
+                          <p class="center bottom">{{ message }}</p>
                       {% endfor -%}
                   {% endif -%}
               {% endwith -%}
