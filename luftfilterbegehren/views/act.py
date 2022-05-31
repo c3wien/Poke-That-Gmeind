@@ -57,7 +57,7 @@ def mail():
 
     except NoResultFound:
         # sender never sent mail before
-        sender = Sender(name_user, mail_user)
+        sender = Sender(name_user, mail_user, city)
         db_session.add(sender)
         mail = Mail(sender, id)
         db_session.add(mail)
