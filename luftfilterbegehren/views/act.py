@@ -73,12 +73,12 @@ def validate(hash):
         sender = db_session.query(Sender).filter_by(hash=hash).one()
 
         if sender.date_validated:
-            flash("Du hast deine E-Mail Adresse bereits erfolgreich verifiziert.")
+            flash("Du hast deine E-Mail-Adresse bereits erfolgreich verifiziert.")
         elif datetime.now() - sender.date_requested > timedelta(5):
             flash("Deine Bestätigungsanfrage ist abgelaufen. Um fortzufahren, bestätige bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
             sender.request_validation()
         else:
-            flash("Vielen Dank, Du hast deube E-Mail Adresse erfolgreich verifiziert.")
+            flash("Vielen Dank, Du hast deine E-Mail-Adresse erfolgreich verifiziert.")
             sender.validate()
             for mail in sender.mails:
                 mail.send()
