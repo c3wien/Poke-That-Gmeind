@@ -38,31 +38,31 @@ def mail():
 
             if sender.date_validated:
                 # sender is authorized to send mails
-                flash("Vielen Dank für Ihre Teilnahme.")
+                flash("Vielen Dank für deine Teilnahme.")
                 mail.send()
                 db_session.commit()
             else:
                 if datetime.now() - sender.date_requested > timedelta(5):
                     # validation request expired
-                    flash("Ihre Bestätigungsanfrage ist abgelaufen. Um fortzufahren, bestätigen Sie bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
+                    flash("Deine Bestätigungsanfrage ist abgelaufen. Um fortzufahren, bestätige bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
                     sender.request_validation()
                     db_session.commit()
                 else:
                     # validation request needs to be confirmed
-                    flash("Danke für Ihr Engagement. Um fortzufahren, bestätigen Sie bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
+                    flash("Danke für dein Engagement. Um fortzufahren, bestätige bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
 
         except IntegrityError:
-            flash("Sie haben {city_name} bereits eine E-Mail geschrieben.".format(city_name=str(city)))
+            flash("Du hast {city_name} bereits eine E-Mail geschrieben.".format(city_name=str(city)))
             db_session.rollback()
 
     except NoResultFound:
         # sender never sent mail before
-        sender = Sender(name_user, mail_user)
+        sender = Sender(name_user, mail_user, city)
         db_session.add(sender)
         mail = Mail(sender, id)
         db_session.add(mail)
         db_session.commit()
-        flash("Danke für Ihr Engagement. Um fortzufahren, bestätigen Sie bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
+        flash("Danke für dein Engagement. Um fortzufahren, bestätige bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
 
     return redirect(url_for("general.city", prettyname=city.name.prettyname, _anchor="email-senden"))
 
@@ -73,12 +73,12 @@ def validate(hash):
         sender = db_session.query(Sender).filter_by(hash=hash).one()
 
         if sender.date_validated:
-            flash("Sie haben Ihre E-Mail Adresse bereits erfolgreich verifiziert.")
+            flash("Du hast deine E-Mail-Adresse bereits erfolgreich verifiziert.")
         elif datetime.now() - sender.date_requested > timedelta(5):
-            flash("Ihre Bestätigungsanfrage ist abgelaufen. Um fortzufahren, bestätigen Sie bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
+            flash("Deine Bestätigungsanfrage ist abgelaufen. Um fortzufahren, bestätige bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
             sender.request_validation()
         else:
-            flash("Vielen Dank, Sie haben Ihre E-Mail Adresse erfolgreich verifiziert.")
+            flash("Vielen Dank, Du hast deine E-Mail-Adresse erfolgreich verifiziert.")
             sender.validate()
             for mail in sender.mails:
                 mail.send()

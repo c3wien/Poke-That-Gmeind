@@ -58,6 +58,11 @@ def faq():
     return render_template("general/faq.html")
 
 
+@mod.route("/konversationsleitfaden/")
+def conversation_guide():
+    return render_template("act/conversation_guide.html")
+
+
 @mod.route("/datenschutz/")
 def privacy():
     return render_template("general/privacy.html")

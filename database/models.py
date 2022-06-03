@@ -64,9 +64,10 @@ class Sender(Base):
     date_validated = Column(DateTime)
     date_requested = Column(DateTime, nullable=False)
 
-    def __init__(self, name, email_address):
+    def __init__(self, name, email_address, city_name):
         self.name = name
         self.email_address = email_address
+        self.city = city_name
         self.request_validation()
 
     def validate(self):
@@ -86,7 +87,7 @@ class Sender(Base):
         addr_to = self.name + " <" + self.email_address + ">"
         subject = "Bestätigung für luftfilterbegehren.at"
         url = url_for("act.validate", hash=self.hash, _external=True)
-        msg = MAIL_VALIDATE.format(name_user=self.name, url=url)
+        msg = MAIL_VALIDATE.format(name_user=self.name, mail_user=self.email_address, url=url, name_city=str(self.city))
         sendmail(addr_from, addr_to, subject, msg)
 
 
