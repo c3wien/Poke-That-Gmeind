@@ -1565,10 +1565,11 @@ section{
 }
 
 progress {
+  margin-top: 2em;
   position: relative;
   display: inline-block;
   background: #e0bd53;
-  height: 5em;
+  height: 48px;
   width: 100%;
   overflow: hidden;
   border: none;
