@@ -11,7 +11,7 @@ def index():
     return render_template("general/index.html", cities=citiesObjects)
 
 
-@mod.route("/hall-of-fame")
+@mod.route("/erfolge")
 def hall_of_fame():
     cities = citiesObjects.cities
     hall_of_famer = []
