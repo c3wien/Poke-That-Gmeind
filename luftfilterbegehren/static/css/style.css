@@ -1052,6 +1052,11 @@ div#cities a:hover div.column div.name {
 }
 
 .city .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: anywhere;
+    height: 6em;
     font-size: 14px;
     font-weight: bold;
     z-index: 10;
