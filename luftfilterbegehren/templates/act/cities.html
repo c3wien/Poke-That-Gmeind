@@ -1,5 +1,9 @@
 {% extends "layout.html" %}
-{% set active_page = "act.cities" %}
+{% if hall_of_fame %}
+    {% set active_page = "general.hall_of_fame" %}
+{% else %}
+    {% set active_page = "general.cities" %}
+{% endif %}
 
 {% block title %}
     <title>Draht zu deinen Gemeinden | {{ config['PROJECT_NAME'] }}</title>
@@ -7,8 +11,13 @@
 
 {% block content %}
     <section id="aktiv">
+        {% if hall_of_fame %}
+        <h1>Erfolge<h1>
+        <h2>Diese Gemeinden haben gemäß eigener Aussage bereits Luftfilter in öffentlichen Gebäuden installiert oder haben Pläne dafür.</h2>
+        {% else %}
         <h1>Draht zu deinen Gemeinden</h1>
-        <h2>Überzeuge deine Gemeinde, dass wir Luftfilter in öffentlichen Gebäuden benötigen!</h2>
+        <h2>Wähle hier deine Gemeinde aus und überzeuge sie davon, dass wir Luftfilter in öffentlichen Gebäuden benötigen!</h2>
+        {% endif %}
         <div id="filter" class="column">
             <form id="states" class="btn-group row" autocomplete="off">
                 <input id="state-b" type="checkbox">
@@ -36,11 +45,10 @@
         </div>
         <div id="cities" class="row">
             {% for city in cities %}
-            <a class="city" id="{{ city.id }}" href="{{ url_for('general.city', prettyname=city.name.prettyname) }}" data-plz="{{ city.plz }}" data-name="{{ city.name.name }}" data-state="{{ city.state }}">
+            <a class="city cmv-{{ city.cmv }}" id="{{ city.id }}" href="{{ url_for('general.city', prettyname=city.name.prettyname) }}" data-plz="{{ city.plz }}" data-name="{{ city.name.name }}" data-state="{{ city.state }}">
                 <div class="column">
                     <div class="name">{{ city.name.name }}</div>
                 </div>
-                <img src="{{ url_for('static', filename='img/cities/' + city.imagename + '.png' ) }}" alt="{{ city }}" />
             </a>
             {% endfor %}
         </div>

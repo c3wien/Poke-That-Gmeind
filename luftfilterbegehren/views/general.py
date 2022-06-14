@@ -8,7 +8,21 @@ citiesObjects = Cities()
 
 @mod.route("/")
 def index():
-    return render_template("general/index.html")
+    return render_template("general/index.html", cities=citiesObjects)
+
+
+@mod.route("/erfolge")
+def hall_of_fame():
+    cities = citiesObjects.cities
+    hall_of_famer = []
+    for city in cities:
+        if city.cmv:
+            hall_of_famer.append(city)
+    return render_template(
+        "act/cities.html",
+        cities=hall_of_famer,
+        hall_of_fame=True
+    )
 
 
 @mod.route("/gemeinden/")
@@ -17,7 +31,8 @@ def cities():
     shuffle(cities_random)
     return render_template(
         "act/cities.html",
-        cities=cities_random
+        cities=cities_random,
+        hall_of_fame=False
     )
 
 
@@ -38,14 +53,14 @@ def share():
     return render_template("general/share.html")
 
 
-@mod.route("/unterstützer/")
-def supporters():
-    return render_template("general/supporters.html")
-
-
 @mod.route("/faq/")
 def faq():
     return render_template("general/faq.html")
+
+
+@mod.route("/konversationsleitfaden/")
+def conversation_guide():
+    return render_template("act/conversation_guide.html")
 
 
 @mod.route("/datenschutz/")
