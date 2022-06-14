@@ -6,7 +6,12 @@
 {% endif %}
 
 {% block title %}
-    <title>Draht zu deinen Gemeinden | {{ config['PROJECT_NAME'] }}</title>
+    {% if hall_of_fame %}
+      <title>Erfolge | {{ config['PROJECT_NAME'] }}</title>
+    {% else %}
+      <title>Draht zu deinen Gemeinden | {{ config['PROJECT_NAME'] }}</title>
+    {% endif %}
+
 {% endblock title %}
 
 {% block content %}
