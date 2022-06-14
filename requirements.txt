@@ -1,4 +1,6 @@
 Flask>=0.10
 PyMySQL>=0.7.6
 SQLAlchemy>=0.9.8
+postgres
+psycopg2-binary
 Flask-Mail

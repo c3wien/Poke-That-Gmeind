@@ -6,6 +6,8 @@ DB_USER = ''
 DB_PASSWORD = ''
 DB_HOST = ''
 DB_NAME = ''
+# postgresql or mysql
+DB_TYPE = ''
 
 # a mail server is needed
 MAIL_HOST = ''
