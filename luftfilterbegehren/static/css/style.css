@@ -181,7 +181,7 @@ header h1 {
 }
 
 footer {
-    padding: 0.5rem;
+    padding: 0.6rem;
     font-size: 85%;
     background-color: #53AFB8;
     text-align: center;
@@ -189,7 +189,7 @@ footer {
 }
 
 footer a {
-    color: inherit;
+    color: #134C52;
 }
 
 footer ul {
@@ -1580,4 +1580,9 @@ progress::-moz-progress-bar {
 }
 progress::-webkit-progress-value {
   background: #8fbec2;
+}
+
+main {
+  min-height: 90.3vh;
+  background-color: #BDB395;
 }
