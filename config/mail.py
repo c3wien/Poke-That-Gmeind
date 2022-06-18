@@ -22,35 +22,38 @@ Mit freundlichen Grüßen,
 
 MAIL_WELCOME = """
 Hallo {name_user},
-wir danken Ihnen herzlich, dass Sie sich für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen stark gemacht haben. Wir würden uns sehr freuen, wenn Sie mithelfen, dass möglichst viele Menschen von luftfilterbegehren.at erfahren. Wir alle sind von der Covid-19 Pandemie und anderen aerosol-übertragenen Infektionskrankheiten betroffen und gemeinsam können wir etwas für unser aller Gesundheit tun.
+wir danken dir herzlich, dass du dich für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen stark gemacht hast. 
 
-1))) Senden Sie eine E-Mail an fünf Freund:innen. Hier ist ein Textvorschlag dafür:
+Wir würden uns sehr freuen, wenn du dabei mithilfst, dass möglichst viele Menschen von luftfilterbegehren.at erfahren. Wir alle sind von der Covid-19 Pandemie und anderen aerosol-übertragenen Infektionskrankheiten betroffen und gemeinsam können wir etwas für unser aller Gesundheit tun.
+
+1))) Sende eine E-Mail an fünf Freund*innen. Hier ist ein Textvorschlag dafür:
 "
 Hallo,
-ich habe gerade meine Gemeinde kontaktiert, um mich für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen einzusetzen. Luftfilter anzuschaffen und zu installieren ist eine Möglichkeit, wie wir lokal und regional weitere Covid-19 Wellen verringern können.
-Bitte schau dir www.luftfilterbegehren.at an und werde selbst für dich und dein Umfeld aktiv.
-Hilf mit, unsere Gemeinde vorzubereiten!
+ich habe gerade meine Gemeinde kontaktiert, um mich für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen einzusetzen. Luftfilter anzuschaffen und zu installieren ist eine Möglichkeit, wie wir lokal und regional weitere Covid-19 Wellen brechen können.
+
+Bitte schau dir https://luftfilterbegehren.at an und werde selbst für dich und dein Umfeld aktiv!
+
 Liebe Grüße,
 "
 
-2))) Sollte Ihnen Ihre Gemeinde geantwortet haben, haben wir für Sie unter https://luftfilterbegehren.at/konversationsleitfaden/ einen hilfreichen Gesprächsleitfaden mit Tipps und weiteren Informationen zusammengetragen.
+2))) Sollte dir deine Gemeinde antworten, findest du unter https://luftfilterbegehren.at/konversationsleitfaden/ Tipps und weitere Informationen für einen konstruktiven Austausch und weiteres Vorgehen.
 
-3))) Gehen Sie den nächsten Schritt: Bleiben Sie mit Ihrer Gemeinde in Kontakt!
-Die effektivste Art, Politiker:innen ins Gewissen zu reden ist, direkt mit ihnen zu sprechen. Rufen Sie in den nächsten Tagen auf Ihrem Gemeindeamt an, oder besuchen Sie die nächste Gemeinderatssitzung. Erinnern Sie Ihre Vertreter:innen daran -- die nächste Grippesaison kommt bestimmt.
+3))) Geh' den nächsten Schritt: Bleib' mit deiner Gemeinde in Kontakt!
+Die effektivste Art, Politiker*innen ins Gewissen zu reden ist, direkt mit ihnen zu sprechen. Ruf in den nächsten Tagen auf deinem Gemeindeamt an, oder besuch die nächste Gemeinderatssitzung. Erinnere deine Vertreter*innen daran: die nächste Grippesaison kommt bestimmt.
 
 Schöne Grüße,
-Ihr Team von luftfilterbegehren.at
+das Team von luftfilterbegehren.at
 """
 
 
 MAIL_VALIDATE = """
 Hallo {name_user},
-vielen Dank für Ihren Einsatz für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen! Damit Ihre E-Mail über www.luftfilterbegehren.at jetzt abgeschickt werden kann, müssen Sie die Übermittlung Ihres Namens ({name_user}) und Ihrer E-Mail-Adresse ({mail_user}) an die Gemeinde {name_city} bestätigen. Folgen Sie dazu diesem Link:
+vielen Dank für deinen Einsatz für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen! Damit deine E-Mail über www.luftfilterbegehren.at jetzt abgeschickt werden kann, musst du die Übermittlung deines Namens ({name_user}) und deiner E-Mail-Adresse ({mail_user}) an die Gemeinde {name_city} bestätigen. Folge dazu diesem Link:
 {url}
 
-Mehr Informationen zur Verarbeitung Ihrer Daten erhalten Sie auf https://luftfilterbegehren.at/datenschutz/
+Mehr Informationen zur Verarbeitung deiner Daten findest du auf https://luftfilterbegehren.at/datenschutz/
 
-Falls Sie nicht wissen, wieso Sie diese Nachricht erhalten haben oder mit der Übermittlung Ihrer Daten nicht einverstanden sind, ignorieren Sie diese Nachricht bitte.
+Falls du nicht weißt, wieso du diese Nachricht erhälst oder mit der Übermittlung deiner Daten nicht einverstanden bist, ignoriere diese Nachricht bitte einfach.
 
 Schöne Grüße,
 das Team von luftfilterbegehren.at
