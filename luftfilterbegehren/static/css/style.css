@@ -1413,6 +1413,7 @@ nav > ul > li:nth-of-type(2) > a:hover {
     background: #e0bd53;
     border-radius: 10px;
     padding: 10px;
+    color: #134C52;
 }
 .chat .btn{
     width: 550px;
@@ -1424,7 +1425,8 @@ nav > ul > li:nth-of-type(2) > a:hover {
 }
 
 .chat h3{
-    font-size: 100%;
+    font-weight: normal;
+    font-size: 1.25em;
     font-family: "OpenSans", "Helvetica Neue", "Helvetica", sans-serif;
 }
 .chat h2{
