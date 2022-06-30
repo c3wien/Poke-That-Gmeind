@@ -819,6 +819,7 @@ label.space {
 
 .invisible {
     visibility: collapse;
+    display: none;
 }
 
 .noselect {
