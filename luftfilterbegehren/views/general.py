@@ -1,4 +1,3 @@
-from random import shuffle
 from flask import Blueprint, render_template, abort
 from database.models import Cities
 
@@ -28,7 +27,6 @@ def hall_of_fame():
 @mod.route("/gemeinden/")
 def cities():
     cities_random = citiesObjects.cities
-    shuffle(cities_random)
     return render_template(
         "act/cities.html",
         cities=cities_random,

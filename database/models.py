@@ -147,6 +147,21 @@ class City():
     def fullname(self):
         return self.name.name
 
+    def __lt__(self, obj):
+        return ((self.fullname()) < (obj.fullname()))
+
+    def __gt__(self, obj):
+        return ((self.fullname()) > (obj.fullname()))
+
+    def __le__(self, obj):
+        return ((self.fullname()) <= (obj.fullname()))
+
+    def __ge__(self, obj):
+        return ((self.fullname()) >= (obj.fullname()))
+
+    def __eq__(self, obj):
+        return (self.fullname() == obj.fullname())
+
 
 def get_state_from_id(id):
     match int(str(id)[0]):
@@ -194,7 +209,7 @@ def load_cities(filename):
         city = City(lcity["id"], name, plz, contact, cmv)
         cities.append(city)
 
-    return cities
+    return sorted(cities)
 
 
 CitiesObjects = Cities()
