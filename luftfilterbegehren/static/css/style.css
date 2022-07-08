@@ -996,8 +996,11 @@ div.center > p,
   background-color: #8fbec2;
 }
 
-div#cities a:hover div.column div.name {
+div#cities a.city.cmv-True:hover  div.column div.name {
   color: #e0bd53;
+}
+div#cities a.city.cmv-False:hover div.column div.name {
+  color: #8fbec2;
 }
 
 .city {
@@ -1061,8 +1064,15 @@ div#cities a:hover div.column div.name {
     font-size: 14px;
     font-weight: bold;
     z-index: 10;
-    background-color: #53afb8;
     padding: 0.3em;
+}
+
+.city.cmv-False .name {
+  background-color: #e0bd53;
+}
+
+.city.cmv-True .name {
+  background-color: #8fbec2;
 }
 
 .city img {
