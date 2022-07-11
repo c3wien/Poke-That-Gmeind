@@ -1381,7 +1381,7 @@ nav > ul > li:nth-of-type(2) > a:hover {
 .avatar img{
     width: 100%;
 }
-.chat ul{
+.chat div.container > ul{
     list-style: none;
 }
 .chat p > a{
@@ -1389,7 +1389,12 @@ nav > ul > li:nth-of-type(2) > a:hover {
     text-decoration: underline;
     font-weight:bold;
 }
-.chat li:nth-child(even){
+
+.chat div.container > ul > li > ul > li {
+    list-style-type: disc;
+}
+
+.chat div.container > ul > li:nth-child(even){
     position: relative;
     margin-left: 60px;
     margin-right: calc(12px + 60px);
@@ -1399,7 +1404,13 @@ nav > ul > li:nth-of-type(2) > a:hover {
     color: #134C52;
 }
 
-.chat li:nth-child(even):after{
+.chat div.container > ul > li > ul {
+    padding: inherit;
+    font-size: 1.25em;
+    line-height: 1.75em;
+}
+
+.chat div.container > ul > li:nth-child(even):after{
     content: ' ';
     position: absolute;
     width: 0;
@@ -1411,10 +1422,10 @@ nav > ul > li:nth-of-type(2) > a:hover {
     border: 12px solid;
     border-color: #8fbec2 #8fbec2 transparent transparent;
 }
-.chat li:nth-child(odd){
+.chat div.container > ul > li:nth-child(odd){
     margin: 55px 15px 15px;
 }
-.chat li:nth-child(odd):first-child {
+.chat div.container > ul > li:nth-child(odd):first-child {
     margin: 25px 15px 15px;
 }
 .chat li{
@@ -1519,12 +1530,12 @@ section{
     .block {
         padding: 15px 10px;
     }
-    .chat li:nth-child(even) {
+    .chat div.container > ul > li:nth-child(even) {
 
         margin-left: 15px;
 
     }
-    .chat li:nth-child(odd) {
+    .chat div.container > ul > li:nth-child(odd) {
         margin: 55px 0 15px;
     }
     .txt-left {
