@@ -1384,7 +1384,7 @@ nav > ul > li:nth-of-type(2) > a:hover {
 .chat div.container > ul{
     list-style: none;
 }
-.chat p > a{
+.chat a{
     color: #fff;
     text-decoration: underline;
     font-weight:bold;
