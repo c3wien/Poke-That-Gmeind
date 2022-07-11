@@ -296,15 +296,15 @@ section:first-of-type {
         position: absolute;
         top: 0;
         right:0;
-        margin: 1.5rem;
+        margin: 0.5rem;
         width: 2.5rem;
         height: 2.5rem;
         background: linear-gradient(
         to bottom,
         #00466e, #00466e 20%,
-        white 20%, white 40%,
+        #BDB395 20%, #BDB395 40%,
         #00466e 40%, #00466e 60%,
-        white 60%, white 80%,
+        #BDB395 60%, #BDB395 80%,
         #00466e 80%, #00466e 100%
         );
     }
