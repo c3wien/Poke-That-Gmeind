@@ -315,7 +315,6 @@ section:first-of-type {
         position: absolute;
         background: #fff;
         right: 0;
-        top: 4rem;
         box-shadow: 0 0 3px #000;
         border-radius: 2px;
     }
