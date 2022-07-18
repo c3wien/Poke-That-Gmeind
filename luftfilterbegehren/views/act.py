@@ -78,7 +78,7 @@ def validate(hash):
             flash("Deine Bestätigungsanfrage ist abgelaufen. Um fortzufahren, bestätige bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
             sender.request_validation()
         else:
-            flash("Vielen Dank, Du hast deine E-Mail-Adresse erfolgreich verifiziert.")
+            flash("Vielen Dank, du hast deine E-Mail-Adresse erfolgreich verifiziert.")
             sender.validate()
             for mail in sender.mails:
                 mail.send()
