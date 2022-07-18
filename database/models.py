@@ -75,7 +75,7 @@ class Sender(Base):
 
         addr_from = '"' + MAIL_FROM + '" <' + MAIL_FROM + '>'
         addr_to = self.name + " <" + self.email_address + ">"
-        subject = "Vielen Dank für Ihre Teilnahme auf luftfilterbegehren.at"
+        subject = "Vielen Dank für deine Teilnahme auf luftfilterbegehren.at"
         msg = MAIL_WELCOME.format(name_user=self.name)
         sendmail(addr_from, addr_to, subject, msg)
 
