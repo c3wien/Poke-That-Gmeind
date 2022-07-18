@@ -64,7 +64,7 @@ def mail():
         db_session.commit()
         flash("Danke für dein Engagement. Um fortzufahren, bestätige bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
 
-    return redirect(url_for("general.city", prettyname=city.name.prettyname, _anchor="email-senden"))
+    return render_template("act/validate.html")
 
 
 @mod.route("/validate/<hash>", methods=["GET"])
