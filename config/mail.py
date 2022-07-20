@@ -53,7 +53,7 @@ vielen Dank für deinen Einsatz für Luftfilter in Schulen und anderen öffentli
 
 Mehr Informationen zur Verarbeitung deiner Daten findest du auf https://luftfilterbegehren.at/datenschutz/
 
-Falls du nicht weißt, wieso du diese Nachricht erhälst oder mit der Übermittlung deiner Daten nicht einverstanden bist, ignoriere diese Nachricht bitte einfach.
+Falls du nicht weißt, wieso du diese Nachricht erhältst oder mit der Übermittlung deiner Daten nicht einverstanden bist, ignoriere diese Nachricht bitte einfach.
 
 Schöne Grüße,
 das Team von luftfilterbegehren.at
