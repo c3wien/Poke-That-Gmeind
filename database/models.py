@@ -2,14 +2,11 @@
 
 from datetime import datetime
 from json import load
-from random import choice
 from uuid import uuid4
 from flask import url_for
 import flask_mail
-from sqlalchemy import UniqueConstraint, Column, Boolean, Integer, String, Date, DateTime, ForeignKey, Text
-from sqlalchemy import func
+from sqlalchemy import UniqueConstraint, Column, Integer, String, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
-from sqlalchemy.ext.hybrid import hybrid_property
 from config import DEBUG, MAIL_FROM, MAIL_DEBUG
 from config.mail import *
 from . import Base
@@ -21,6 +18,7 @@ def sendmail(addr_from, addr_to, subject, body):
     msg.add_recipient(addr_to)
     msg.body = body
     mail.send(msg)
+
 
 class Mail(Base):
     __tablename__ = "mails"
@@ -115,9 +113,6 @@ class Cities():
         except IndexError:
             city = None
         return city
-
-    def get_party(self, shortname):
-        return self.parties[shortname]
 
 
 class Contact():
