@@ -10,6 +10,11 @@ from sqlalchemy.orm import relationship
 from config import DEBUG, MAIL_FROM, MAIL_DEBUG
 from config.mail import *
 from . import Base
+import sys
+
+if MAIL_FROM == "":
+    print("MAIL_FROM is empty. exiting.")
+    sys.exit(3)
 
 
 def sendmail(addr_from, addr_to, subject, body):

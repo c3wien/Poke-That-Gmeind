@@ -11,7 +11,7 @@ See below for dependencies.
 
 # Dependencies
 
-- python 3.10 (!)
+- python >= 3.10 (!)
 - Flask 1.X https://flask.palletsprojects.com/en/1.1.x/
 - SQLAlchemy https://docs.sqlalchemy.org/en/14/
 - PyMySQL https://pymysql.readthedocs.io/en/latest/
@@ -37,3 +37,4 @@ docker run --rm -it -p 3000:80 -p 25:25 rnwood/smtp4dev
 - Normalize.css (C) Nicolas Gallagher, Jonathan Neal [MIT]
 - OpenSans (C) Steve Matteson [Apache]
 - Oswald (C) Vernon Adams [OFL]
+- cities.json from https://github.com/bresu/oe_gemeinden (C) 2020 bresu [CC-BY-SA]
