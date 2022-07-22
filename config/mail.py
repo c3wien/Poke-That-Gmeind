@@ -1,4 +1,4 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 MAIL_DISCLAIMER = "Diese E-Mail wird übermittelt im Namen von: {name_user}, {mail_user}"
 
@@ -17,12 +17,12 @@ Mit freundlichen Grüßen,
 [1]: https://futureoperations.at/fileadmin/user_upload/k_future_operations/FUOP_Szenarien_Herbst-Winter_2022_Version_1.0.pdf
 [2]: https://futureoperations.at/fileadmin/user_upload/k_future_operations/FOP_GrundregelnSchule_2022_06_01.pdf
 [3]: https://www.fondazionehume.it/data-analysis/controlled-mechanical-ventilation-cmv-works/
-[4]: https://traiskirchen.gv.at/news/virusbekaempfungs-luftreinigungsanlagen-in-allen-bildungseinrichtungen-traiskirchens/
+[4]: https://traiskirchen.gv.at/suche/virusbekaempfungs-luftreinigungsanlagen-in-allen-bildungseinrichtungen-traiskirchens/
 """
 
 MAIL_WELCOME = """
 Hallo {name_user},
-wir danken dir herzlich, dass du dich für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen stark gemacht hast. 
+wir danken dir herzlich, dass du dich für Luftfilter in Schulen und anderen öffentlichen Gebäuden und Einrichtungen stark gemacht hast.
 
 Wir würden uns sehr freuen, wenn du dabei mithilfst, dass möglichst viele Menschen von luftfilterbegehren.at erfahren. Wir alle sind von der Covid-19 Pandemie und anderen aerosol-übertragenen Infektionskrankheiten betroffen und gemeinsam können wir etwas für unser aller Gesundheit tun.
 
