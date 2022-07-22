@@ -143,7 +143,7 @@ function updateText(event) {
     $("#mail .textarea").empty();
     $.each(lines, function() {
         if(this.length) {
-            str = this.replace("{name_city}", MailNameTo).replace("{name_user}", MailNameFrom);
+            str = this.replace("{name_user}", MailNameFrom);
             $("#mail .textarea").append("<p>" + str + "</p>");
         }
     });

@@ -40,7 +40,7 @@
               </div>
               <p class="small">* Pflichtfeld</p>
               <input type="hidden" name="id" value="{{ city.id }}" />
-              <div class="textarea">{{ config['MAIL_CITY']|e }}</div>
+              <div class="textarea">{{ config['MAIL_CITY']|e | replace( "{name_city}", city.fullname())}}</div>
               <button class="btn btn-default">Senden</button>
               <p class="center small indent">Wenn du diese Nachricht abändern möchtest, kannst du die E-Mail <a href="mailto:{{ city.contact.mail }}?subject={{ config['PROJECT_NAME'] }}">direkt</a> verschicken.</p>
               <p class="center indent">Falls diese Gemeinde bereits Luftfilter installiert bzw. Pläne dazu hat, entfernen wir den Eintrag gern aus dieser Liste. Dazu reicht ein formloses E-Mail an wirhabenschon [at] luftfilterbegehren.at, bevorzugt mit Betreff „Gemeinde {{ city.fullname().upper() }} hat schon.”</p>
@@ -53,8 +53,4 @@
           Die Gemeinde {{ city.fullname() }} hat gemäß eigener Aussage bereits Luftfilter beschafft, oder hat Pläne dies zu tun.
       </section>
     {% endif %}
-
-<script>
-    MailNameTo = "{{ city }}";
-</script>
 {% endblock %}
