@@ -32,7 +32,7 @@
         <div class="progress-container">
           <progress id="progress" max="{{ cities.count }}" value="{{ cities.countcmv  }}"> {{ cities.countcmv }} von {{ cities.count }}</progress>
         </div>
-        <p>Bisher haben {{ cities.countcmv }} von {{ cities.count }} Gemeinden gemeldet, Luftfilteranlagen in öffentlichen Gebäuden einzusetzen oder das zu planen.
+        <p>Bisher {% if cities.countcmv == 1 %} hat {% else %} haben {% endif %} {{ cities.countcmv }} von {{ cities.count }} Gemeinden gemeldet, Luftfilteranlagen in öffentlichen Gebäuden einzusetzen oder das zu planen.
           <br>
           <br>
           Deine Gemeinde ist noch nicht dabei? Dann los!</p>
