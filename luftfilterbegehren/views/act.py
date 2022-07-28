@@ -34,8 +34,6 @@ def mail():
     try:
         sender = db_session.query(Sender).filter_by(email_address=mail_user).one()
         try:
-            db_session.commit()
-
             if sender.date_validated:
                 if (datetime.now() - sender.date_validated) > timedelta(3):
                     raise ValidationExpired
