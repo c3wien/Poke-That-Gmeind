@@ -13,6 +13,11 @@ mod = Blueprint("act", __name__, url_prefix="/act")
 citiesObjects = Cities()
 
 
+class ValidationExpired(Exception):
+    """raised when a successful validation is expired"""
+    pass
+
+
 @mod.route("/mail/", methods=["POST"])
 def mail():
     id = request.form.get("id")
@@ -28,19 +33,21 @@ def mail():
 
     try:
         sender = db_session.query(Sender).filter_by(email_address=mail_user).one()
-
-
-        mail = Mail(sender, id)
-
         try:
-            db_session.add(mail)
             db_session.commit()
+            print(dir(sender))
+            print(sender.date_validated)
 
             if sender.date_validated:
-                # sender is authorized to send mails
-                flash("Vielen Dank für deine Teilnahme.")
-                mail.send()
-                db_session.commit()
+                if (datetime.now() - sender.date_validated) > timedelta(3):
+                    raise ValidationExpired
+                else:
+                    # sender is authorized to send mails
+                    flash("Vielen Dank für deine Teilnahme.")
+                    mail = Mail(sender, id)
+                    db_session.add(mail)
+                    mail.send()
+                    db_session.commit()
             else:
                 if datetime.now() - sender.date_requested > timedelta(5):
                     # validation request expired
@@ -54,6 +61,10 @@ def mail():
         except IntegrityError:
             flash("Du hast {city_name} bereits eine E-Mail geschrieben.".format(city_name=str(city)))
             db_session.rollback()
+        except ValidationExpired:
+            db_session.delete(sender)
+            db_session.commit()
+            raise NoResultFound
 
     except NoResultFound:
         # sender never sent mail before
