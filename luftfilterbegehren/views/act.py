@@ -48,6 +48,9 @@ def mail():
                 if datetime.now() - sender.date_requested > timedelta(5):
                     # validation request expired
                     flash("Deine Bestätigungsanfrage ist abgelaufen. Um fortzufahren, bestätige bitte den Link, den wir an {mail_user} gesendet haben.".format(mail_user=sender.email_address))
+                    # explicit set city in sender to city from request
+                    # for revalidation
+                    sender.city = city
                     sender.request_validation()
                     db_session.commit()
                 else:
