@@ -46,9 +46,9 @@ class Mail(Base):
 
         city = CitiesObjects.get_city_by_id(self.recipient)
 
-        addr_from = '"' + MAIL_FROM + '" <' + MAIL_FROM + '>'
+        addr_from = MAIL_FROM
         if DEBUG:
-            addr_to = '"' + MAIL_DEBUG + '" <' + MAIL_DEBUG + '>'
+            addr_to = MAIL_DEBUG
         else:
             addr_to = str(city) + " <" + city.contact.mail + ">"
         subject = "Luftfilterbegehren"
@@ -76,7 +76,7 @@ class Sender(Base):
     def validate(self):
         self.date_validated = datetime.now()
 
-        addr_from = '"' + MAIL_FROM + '" <' + MAIL_FROM + '>'
+        addr_from = MAIL_FROM
         addr_to = self.name + " <" + self.email_address + ">"
         subject = "Vielen Dank für deine Teilnahme auf luftfilterbegehren.at"
         msg = MAIL_WELCOME.format(name_user=self.name)
@@ -86,7 +86,7 @@ class Sender(Base):
         self.hash = uuid4().hex
         self.date_requested = datetime.now()
 
-        addr_from = '"' + MAIL_FROM + '" <' + MAIL_FROM + ">"
+        addr_from = MAIL_FROM
         addr_to = self.name + " <" + self.email_address + ">"
         subject = "Bestätigung für luftfilterbegehren.at"
         url = url_for("act.validate", hash=self.hash, _external=True)
