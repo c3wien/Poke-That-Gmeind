@@ -1,6 +1,6 @@
 id,name.name,plz,contact.mail,contact.www
 10101,Eisenstadt,7000,rathaus@eisenstadt.at,http://www.eisenstadt.gv.at
-10201,Rust,7071,post@rust.bgld.gv.at,http://www.freistadt-rust.at/
+10201,Rust,7071,post@rust.bgld.gv.at,https://www.freistadt-rust.at/
 10301,Breitenbrunn am Neusiedler See,7091,gemeinde@breitenbrunn.at,http://www.breitenbrunn.at
 10302,Donnerskirchen,7082,post@donnerskirchen.bgld.gv.at,http://www.donnerskirchen.at
 10303,Großhöflein,7051,post@grosshoeflein.bgld.gv.at,http://www.grosshoeflein.at
@@ -12,7 +12,7 @@ id,name.name,plz,contact.mail,contact.www
 10309,Neufeld an der Leitha,2491,post@neufeld-leitha.bgld.gv.at,http://www.neufeld-leitha.at
 10310,Oggau am Neusiedler See,7063,post@oggau-neusiedler-see.bgld.gv.at,http://www.oggau.at
 10311,Oslip,7064,post@oslip.bgld.gv.at,http://www.oslip.at
-10312,Purbach am Neusiedler See,7083,info@purbach.at,http://www.purbach.at
+10312,Purbach am Neusiedler See,7083,stadtgemeinde@purbach.gv.at,https://www.purbach.gv.at/
 10313,Sankt Margarethen im Burgenland,7062,post@st-margarethen.at,http://www.st-margarethen.at
 10314,Schützen am Gebirge,7081,post@schuetzen-am-gebirge.bgld.gv.at,https://www.schuetzen-am-gebirge.at/
 10315,Siegendorf,7011,post@siegendorf.bgld.gv.at,http://www.siegendorf.gv.at
@@ -24,7 +24,7 @@ id,name.name,plz,contact.mail,contact.www
 10321,Stotzing,2443,post@stotzing.bgld.gv.at,http://www.stotzing.at
 10322,Zillingtal,7034,postmaster@zillingtal.at,http://www.zillingtal.at
 10323,Zagersdorf,7012,post@zagersdorf.bgld.gv.at,http://www.zagersdorf.at
-10401,Bocksdorf,7551,info@bocksdorf.at,http://www.bocksdorf.at
+10401,Bocksdorf,7551,post@bocksdorf.bgld.gv.at,http://www.bocksdorf.at
 10402,Burgauberg-Neudauberg,8291,post@burgauberg-neudauberg.bgld.gv.at,http://www.burgauberg-neudauberg.at
 10403,Eberau,7521,post@eberau.bgld.gv.at,http://www.eberau.at
 10404,Gerersdorf-Sulz,7542,post@gerersdorf-sulz.bgld.gv.at,https://www.gerersdorf-sulz.at/
@@ -43,7 +43,7 @@ id,name.name,plz,contact.mail,contact.www
 10417,Tobaj,7544,post@tobaj.bgld.gv.at,http://www.tobaj.gv.at
 10418,Hackerberg,8292,post@hackerberg.bgld.gv.at,http://www.hackerberg.at
 10419,Wörterberg,8293,post@woerterberg.bgld.gv.a,http://www.woerterberg.at
-10420,Großmürbisch,7540,post@strem.bgld.gv.at,http://www.grossmuerbisch.at
+10420,Großmürbisch,7540,post@grossmuerbisch.bgld.gv.at,http://www.grossmuerbisch.at
 10421,Inzenhof,7540,post@inzenhof.bgld.gv.at,http://www.inzenhof.at
 10422,Kleinmürbisch,7540,post@kleinmuerbisch.bgld.gv.at,http://www.kleinmuerbisch.at
 10423,Tschanigraben,7540,post@tschanigraben.bgld.gv.at,http://www.tschanigraben.at
@@ -53,7 +53,7 @@ id,name.name,plz,contact.mail,contact.www
 10427,Rauchwart,7535,post@rauchwart.bgld.gv.at,http://www.gemeinde-rauchwart.at
 10428,Moschendorf,7540,post@moschendorf.bgld.gv.at,http://www.moschendorf.at
 10501,Deutsch Kaltenbrunn,7572,post@deutsch-kaltenbrunn.bgld.gv.at,https://www.deutschkaltenbrunn.eu/
-10502,Eltendorf,7562,post@elterndorf.bgld.gv.gv.at,http://www.eltendorf.at
+10502,Eltendorf,7562,post@eltendorf.bgld.gv.at,http://www.eltendorf.at
 10503,Heiligenkreuz im Lafnitztal,7561,post@heiligenkreuz-lafnitztal.bgld.gv.at,http://www.heiligenkreuz-lafnitztal.at/
 10504,Jennersdorf,8380,post@jennersdorf.bgld.gv.at,https://www.jennersdorf.eu/
 10505,Minihof-Liebau,8384,post@minihof-liebau.bgld.gv.at,http://www.minihof-liebau.gv.at
@@ -88,7 +88,7 @@ id,name.name,plz,contact.mail,contact.www
 10703,Bruckneudorf,2460,post@bruckneudorf.bgld.gv.at,http://www.bruckneudorf.eu
 10704,Deutsch Jahrndorf,2423,post@deutsch-jahrndorf.bgld.gv.at,http://www.deutsch-jahrndorf.at/
 10705,Frauenkirchen,7132,post@frauenkirchen.bgld.gv.at,http://www.frauenkirchen.at
-10706,Gattendorf,2474,kundenservice@kabelplus.co.at,http://www.gemeinde-gattendorf.at
+10706,Gattendorf,2474,buergerservice@gattendorf.bgld.gv.at,https://www.gattendorf.at/
 10707,Gols,7122,post@gols.bgld.gv.at,http://www.gols.co.at
 10708,Halbturn,7131,gemeinde@halbturn.at,http://www.halbturn.at
 10709,Illmitz,7142,post@illmitz.bgld.gv.at,http://www.gemeinde-illmitz.at
@@ -99,7 +99,7 @@ id,name.name,plz,contact.mail,contact.www
 10714,Nickelsdorf,2425,gemeinde@nickelsdorf.at,http://www.nickelsdorf.gv.at
 10715,Pama,2422,post@pama.bgld.gv.at,http://www.gemeinde-pama.at
 10716,Pamhagen,7152,post@pamhagen.bgld.gv.at,http://www.gemeinde-pamhagen.at
-10717,Parndorf,7111,office@eloops.at,http://www.gemeinde-parndorf.at
+10717,Parndorf,7111,post@parndorf.bgld.gv.at,http://www.gemeinde-parndorf.at
 10718,Podersdorf am See,7141,info@podersdorfamsee.at,http://www.podersdorf.at
 10719,Sankt Andrä am Zicksee,7161,post@st-andrae-zicksee.bgld.gv.at,https://www.xn--gemeinde-standr-flb.at
 10720,Tadten,7162,post@tadten.bgld.gv.at,http://www.tadten.at
@@ -122,7 +122,7 @@ id,name.name,plz,contact.mail,contact.www
 10810,Lutzmannsburg,7361,post@lutzmannsburg.bgld.gv.at,http://www.lutzmannsburg.at
 10811,Mannersdorf an der Rabnitz,7444,post@mannersdorf.bgld.gv.at,https://mannersdorf-adr.at
 10812,Markt Sankt Martin,7341,post@markt-st-martin.bgld.gv.at,https://www.marktstmartin.at
-10813,Neckenmarkt,7311,winzerkeller@neckenmarkt.at,http://www.neckenmarkt.at
+10813,Neckenmarkt,7311,post@neckenmarkt.bgld.gv.at,https://www.neckenmarkt.net/gemeinde/
 10814,Neutal,7343,info@neutal.at,http://www.neutal.at/system/web/default.aspx
 10815,Nikitsch,7302,post@nikitsch.bgld.gv.at,http://www.nikitsch.gv.at
 10816,Oberpullendorf,7350,post@oberpullendorf.bgld.gv.at,http://www.oberpullendorf.gv.at
@@ -136,18 +136,18 @@ id,name.name,plz,contact.mail,contact.www
 10824,Lackendorf,7321,post@lackendorf.bgld.gv.at,http://www.lackendorf.at
 10825,Unterfrauenhaid,7321,post@unterfrauenhaid.bgld.gv.at,http://www.unterfrauenhaid.at
 10826,Unterrabnitz-Schwendgraben,7371,post@unterrabnitz-schwendgraben.bgld.gv.at,http://www.unterrabnitz.at
-10827,Weingraben,7374,none,none
+10827,Weingraben,7374,post@weingraben.bgld.gv.at,none
 10828,Oberloisdorf,7451,post@oberloisdorf.bgld.gv.at,http://www.oberloisdorf.at
 10901,Bad Tatzmannsdorf,7431,post@bad-tatzmannsdorf.bgld.gv.at,http://www.bad-tatzmannsdorf.at
 10902,Bernstein,7434,post@bernstein.bgld.gv.at,http://www.bernstein.gv.at
 10903,Deutsch Schützen-Eisenberg,7474,post@deutsch-schuetzen-eisenberg.bgld.gv.at,https://www.eisenberg.at
-10904,Grafenschachen,7423,none,none
+10904,Grafenschachen,7423,post@grafenschachen.bgld.gv.at,grafenschachen.at
 10905,Großpetersdorf,7503,post@grosspetersdorf.bgld.gv.at,http://www.grosspetersdorf.at
 10906,Hannersdorf,7473,post@hannersdorf.bgld.gv.at,http://www.hannersdorf.at
 10907,Kemeten,7531,post@kemeten.bgld.gv.at,http://www.kemeten.gv.at
 10908,Kohfidisch,7512,post@kohfidisch.bgld.gv.at,http://www.kohfidisch.at
-10909,Litzelsdorf,7532,info@litzelsdorf.at,http://www.litzelsdorf.at
-10910,Loipersdorf-Kitzladen,7410,info@panoramahof.com,http://www.loipersdorf.co.at
+10909,Litzelsdorf,7532,post@litzelsdorf.bgld.gv.at,http://www.litzelsdorf.at
+10910,Loipersdorf-Kitzladen,7410,gde@bad-loipersdorf.gv.at,https://gemeinde.loipersdorf.at/
 10911,Mariasdorf,7433,post@mariasdorf.bgld.gv.at,http://www.mariasdorf.at
 10912,Markt Allhau,7411,post@markt-allhau.bgld.gv.at,http://www.marktallhau.gv.at
 10913,Markt Neuhodis,7464,post@markt-neuhodis.bgld.gv.at,http://www.markt-neuhodis.at
@@ -158,7 +158,7 @@ id,name.name,plz,contact.mail,contact.www
 10918,Pinkafeld,7423,post@pinkafeld.bgld.gv.at,http://www.pinkafeld.gv.at
 10919,Rechnitz,7471,post@rechnitz.bgld.gv.at,http://www.rechnitz.at
 10920,Riedlingsdorf,7422,post@riedlingsdorf.bgld.gv.at,http://www.riedlingsdorf.at
-10921,Rotenturm an der Pinka,7501,none,nope
+10921,Rotenturm an der Pinka,7501,post@rotenturm-pinka.bgld.gv.at,none
 10922,Schachendorf,7472,post@schachendorf.bgld.gv.at,http://www.schachendorf.at
 10923,Stadtschlaining,7461,post@stadtschlaining.bgld.gv.at,https://www.stadtschlaining.at
 10924,Unterkohlstätten,7435,post@unterkohlstaetten.bgld.gv.at,http://www.unterkohlstaetten.at
@@ -171,7 +171,7 @@ id,name.name,plz,contact.mail,contact.www
 10931,Badersdorf,7512,post@badersdorf.bgld.gv.at%0a,http://www.badersdorf.at
 10932,Schandorf,7472,post@schandorf.bgld.gv.at,http://www.schandorf.at
 20101,Klagenfurt am Wörthersee,9020,info@klagenfurt.at,http://www.klagenfurt.gv.at
-20201,Villach,9500,service@villach.at,http://www.villach.at
+20201,Villach,9500,buergerservice@villach.at,http://www.villach.at
 20302,Dellach,9635,dellach@ktn.gde.at,http://www.dellach.at
 20305,Hermagor-Pressegger See,9620,gemeinde@hermagor.at,http://www.hermagor.at
 20306,Kirchbach,9632,kirchbach@ktn.gde.at,http://www.kirchbach.gv.at
@@ -183,11 +183,11 @@ id,name.name,plz,contact.mail,contact.www
 20403,Feistritz im Rosental,9181,feistritz-ros@ktn.gde.at,https://www.feistritz-rosental.gv.at
 20405,Ferlach,9170,ferlach@ktn.gde.at,http://www.ferlach.at
 20409,Grafenstein,9131,grafenstein@ktn.gde.at,http://www.grafenstein.gv.at
-20412,Keutschach am See,9074,office@caritas-kaernten.at,http://www.keutschach.gv.at
+20412,Keutschach am See,9074,keutschach-see@ktn.gde.at,http://www.keutschach.gv.at
 20414,Köttmannsdorf,9071,koettmannsdorf@ktn.gde.at,http://www.koettmannsdorf.at
 20415,Krumpendorf am Wörthersee,9201,krumpendorf@ktn.gde.at,http://www.krumpendorf.gv.at
 20416,Ludmannsdorf,9072,ludmannsdorf@ktn.gde.at,http://www.ludmannsdorf.gv.at
-20417,Maria Rain,9161,office@kucos.at,http://www.maria-rain.gv.at
+20417,Maria Rain,9161,maria-rain@ktn.gde.at,http://www.maria-rain.gv.at
 20418,Maria Saal,9063,maria-saal@ktn.gde.at,http://www.maria-saal.gv.at
 20419,Maria Wörth,9081,maria-woerth@ktn.gde.at,https://www.maria-woerth.info/
 20421,Moosburg,9062,moosburg@ktn.gde.at,http://www.moosburg.gv.at
@@ -198,7 +198,7 @@ id,name.name,plz,contact.mail,contact.www
 20435,Techelsberg am Wörther See,9212,techelsberg@ktn.gde.at,http://www.techelsberg.gv.at
 20441,Zell,9170,zell@ktn.gde.at,https://www.zell-sele.at
 20442,Magdalensberg,9064,magdalensberg@ktn.gde.at,http://www.magdalensberg.gv.at
-20501,Althofen,9330,simone.schmidinger@ktn.gde.at,http://www.althofen.gv.at
+20501,Althofen,9330,althofen@ktn.gde.at,http://www.althofen.gv.at
 20502,Brückl,9371,brueckl@ktn.gde.at,http://www.brueckl.gv.at
 20503,Deutsch-Griffen,9572,deutsch-griffen@ktn.gde.at,http://www.deutsch-griffen.at
 20504,Eberstein,9372,eberstein@ktn.gde.at,http://www.eberstein.at
@@ -207,7 +207,7 @@ id,name.name,plz,contact.mail,contact.www
 20508,Gurk,9342,gurk@ktn.gde.at,http://www.gurk.gv.at
 20509,Guttaring,9334,guttaring@ktn.gde.at,http://www.guttaring.at
 20511,Hüttenberg,9375,huettenberg@ktn.gde.at,http://www.huettenberg.at
-20512,Kappel am Krappfeld,9321,antiques@kappel.co.at,http://www.kappel.co.at
+20512,Kappel am Krappfeld,9321,kappel-kr@ktn.gde.at,https://kappel-am-krappfeld.at/
 20513,Klein St. Paul,9373,klein-st-paul@ktn.gde.at,http://www.klein-st-paul.gv.at
 20515,Liebenfels,9556,liebenfels@ktn.gde.at,http://www.liebenfels.at
 20518,Metnitz,9363,metnitz@ktn.gde.at,http://www.metnitz.gv.at
@@ -273,7 +273,7 @@ id,name.name,plz,contact.mail,contact.www
 20801,Bleiburg,9150,bleiburg.direktion@ktn.gde.at,http://www.bleiburg.gv.at
 20802,Diex,9103,diex@ktn.gde.at,http://www.diex.gv.at
 20803,Eberndorf,9141,eberndorf@ktn.gde.at,http://www.eberndorf.at
-20804,Eisenkappel-Vellach,9135,gemeindeamt@bad-eisenkappel.info,http://www.eisenkappel.at
+20804,Eisenkappel-Vellach,9135,gemeindeamt@bad-eisenkappel.info,https://www.bad-eisenkappel.info/
 20805,Feistritz ob Bleiburg,9143,feistritz-bleiburg@ktn.gde.at,http://www.feistritz-bleiburg.gv.at
 20806,Gallizien,9132,gallizien@ktn.gde.at,http://www.gallizien.gv.at
 20807,Globasnitz,9142,globasnitz@ktn.gde.at,http://www.globasnitz.at
@@ -301,9 +301,9 @@ id,name.name,plz,contact.mail,contact.www
 21007,Reichenau,9565,reichenau@ktn.gde.at,http://www.reichenau.gv.at
 21008,St. Urban,9554,st-urban@ktn.gde.at,https://www.sturban.at
 21009,Steindorf am Ossiacher See,9551,steindorf.direktion@ktn.gde.at,http://www.steindorf.gv.at
-21010,Steuerberg,9560,zuhause@steuerberg.eu,http://www.steuerberg.co.at
+21010,Steuerberg,9560,steuerberg@ktn.gde.at,https://www.steuerberg.at/
 30101,Krems an der Donau,3500,buergerservice@krems.gv.at,http://www.krems.gv.at/
-30201,St. Pölten,3100,tourismus@st-poelten.gv.at,http://www.st-poelten.gv.at
+30201,St. Pölten,3100,rathaus@st-poelten.gv.at,http://www.st-poelten.gv.at
 30301,Waidhofen an der Ybbs,3340,post@waidhofen.at,http://www.waidhofen-ybbs.gv.at
 30401,Wiener Neustadt,2700,buergerservice@wiener-neustadt.at,http://www.wiener-neustadt.gv.at
 30501,Allhartsberg,3365,gemeinde@allhartsberg.gv.at,http://www.allhartsberg.gv.at
@@ -371,7 +371,7 @@ id,name.name,plz,contact.mail,contact.www
 30645,Weissenbach an der Triesting,2564,gemeinde@weissenbach-triesting.at,http://www.weissenbach-triesting.gv.at
 30646,Blumau-Neurißhof,2602,gemeinde@blumau-neurisshof.gv.at,http://www.blumau-neurisshof.gv.at
 30701,Au am Leithaberge,2451,gemeinde@au-leithaberge.gv.at,http://www.au-leithaberge.gv.at/
-30702,Bad Deutsch-Altenburg,2405,office@roemerland-carnuntum.at,http://www.bad-deutsch-altenburg.gv.at
+30702,Bad Deutsch-Altenburg,2405,buero@bad-deutsch-altenburg.gv.at,http://www.bad-deutsch-altenburg.gv.at
 30703,Berg,2413,sekretariat@gemeindeberg.at,http://www.berg.gv.at
 30704,Bruck an der Leitha,2460,stadt@bruckleitha.at,http://www.bruck-leitha.gv.at
 30706,Enzersdorf an der Fischa,2431,gemeinde@enzersdorf-fischa.gv.at,http://www.enzersdorf-fischa.gv.at
@@ -404,7 +404,7 @@ id,name.name,plz,contact.mail,contact.www
 30740,Schwechat,2320,stadtgemeinde@schwechat.gv.at,http://www.schwechat.gv.at
 30741,Zwölfaxing,2322,gemeinde@zwoelfaxing.gv.at,http://www.zwoelfaxing.gv.at
 30801,Aderklaa,2232,gemeinde@aderklaa.gv.at,http://www.aderklaa.gv.at
-30802,Andlersdorf,2301,none,none
+30802,Andlersdorf,2301,gemeinde-andlersdorf@aon.at,https://www.noe.gv.at/noe/Andlersdorf.html
 30803,Angern an der March,2261,gemeinde@angern.at,http://www.angern.at
 30804,Auersthal,2214,gemeinde@auersthal.at,http://www.auersthal.gv.at
 30805,Bad Pirawarth,2222,gemeinde@badpirawarth.gv.at,http://www.bad-pirawarth.gv.at
@@ -417,7 +417,7 @@ id,name.name,plz,contact.mail,contact.www
 30817,Gänserndorf,2230,gemeinde@gaenserndorf.at,http://www.gaenserndorf.at
 30819,Glinzendorf,2282,gemeinde@glinzendorf.gv.at,http://www.glinzendorf.gv.at
 30821,Groß-Enzersdorf,2301,buergerservice@gross-enzersdorf.gv.at,http://www.gross-enzersdorf.gv.at
-30822,Großhofen,2282,none,none
+30822,Großhofen,2282,gemeinde@grosshofen.gv.at,https://www.noe.gv.at/noe/grosshofen.html
 30824,Groß-Schweinbarth,2221,gemeinde@gross-schweinbarth.gv.at,http://www.gross-schweinbarth.gv.at
 30825,Haringsee,2286,gemeinde@haringsee.at,http://www.haringsee.at
 30826,Hauskirchen,2184,gemeinde@hauskirchen.gv.at,http://www.hauskirchen.gv.at
@@ -666,7 +666,7 @@ id,name.name,plz,contact.mail,contact.www
 31714,Laab im Walde,2381,gemeinde@laab.gv.at,http://www.laab.gv.at
 31715,Laxenburg,2361,gemeinde@laxenburg.at,https://www.laxenburg.at
 31716,Maria Enzersdorf,2344,mariaenzersdorf@bibliotheken.at,http://www.maria-enzersdorf.gv.at
-31717,Mödling,2340,appartements@verberne.at,http://www.moedling.co.at
+31717,Mödling,2340,office@moedling.at,https://www.moedling.at/
 31718,Münchendorf,2482,office@gemeinde-muenchendorf.at,http://www.muenchendorf.gv.at
 31719,Perchtoldsdorf,2380,gemeinde@perchtoldsdorf.at,http://www.perchtoldsdorf.at
 31723,Vösendorf,2331,info@voesendorf.gv.at,http://www.voesendorf.gv.at
@@ -679,7 +679,7 @@ id,name.name,plz,contact.mail,contact.www
 31805,Breitenstein,2673,gemeinde@breitenstein.gv.at,http://www.breitenstein.gv.at
 31806,Buchbach,2630,gemeinde@buchbach.gv.at,http://www.buchbach-liesling.at
 31807,Edlitz,2842,gemeindeamt@edlitz.gv.at,http://www.edlitz.gv.at
-31808,Enzenreith,2640,presse.niederoesterreich@bmlv.gv.at,http://www.gemeinde-enzenreith.at
+31808,Enzenreith,2640,verwaltung@gemeinde-enzenreith.at,http://www.gemeinde-enzenreith.at
 31809,Feistritz am Wechsel,2873,gemeinde@feistritz-wechsel.gv.at,http://www.feistritz-wechsel.gv.at
 31810,Gloggnitz,2640,stadtgemeinde@gloggnitz.gv.at,http://www.gloggnitz.at
 31811,Grafenbach-St. Valentin,2632,gemeinde@grafenbach.at,http://www.grafenbach.at
@@ -702,7 +702,7 @@ id,name.name,plz,contact.mail,contact.www
 31833,Schottwien,2641,gemeinde@schottwien.gv.at,http://www.schottwien.gv.at
 31834,Schrattenbach,2733,gemeinde@schrattenbach.gv.at,http://www.schrattenbach.gv.at
 31835,Schwarzau am Steinfeld,2625,gemeinde@schwarzau-steinfeld.gv.at,http://www.schwarzau.at
-31836,Schwarzau im Gebirge,2662,info@gemeinde-paket.at,https://www.schwarzau-gebirge.gv.at/
+31836,Schwarzau im Gebirge,2662,gemeinde@schwarzauimgebirge.at,https://www.schwarzau-gebirge.gv.at/
 31837,Seebenstein,2824,gemeinde@seebenstein.gv.at,http://www.seebenstein.gv.at
 31838,Semmering,2680,gemeinde@semmering.gv.at,http://www.semmering.at
 31839,Ternitz,2630,gemeinde@ternitz.at,http://www.ternitz.gv.at
@@ -814,7 +814,7 @@ id,name.name,plz,contact.mail,contact.www
 32219,Vitis,3902,gemeinde@vitis.gv.at,http://www.vitis.gv.at
 32220,Waidhofen an der Thaya,3830,stadtamt@waidhofen-thaya.gv.at,http://www.waidhofen-thaya.gv.at
 32221,Waidhofen an der Thaya-Land,3830,gemeinde@waidhofen-land.at,http://www.waidhofen-thaya-land.gv.at
-32222,Waldkirchen an der Thaya,3844,andrea.donesch@chello.at,http://www.waldkirchen-thaya.gv.at
+32222,Waldkirchen an der Thaya,3844,gemeinde@waldkirchen-thaya.at,http://www.waldkirchen-thaya.gv.at
 32223,Windigsteig,3841,gem.windigsteig@wvnet.at,http://www.windigsteig.gv.at
 32301,Bad Fischau-Brunn,2721,info@bad-fischau-brunn.at,http://www.bad-fischau-brunn.at
 32302,Bad Schönau,2853,gemeinde@bad-schoenau.gv.at,https://www.badschoenau.at/
@@ -834,7 +834,7 @@ id,name.name,plz,contact.mail,contact.www
 32317,Lichtenegg,2813,gemeinde@lichtenegg.gv.at,http://www.lichtenegg.at
 32318,Lichtenwörth,2493,gemeindeamt@lichtenwoerth.at,http://www.lichtenwoerth.gv.at
 32319,Markt Piesting,2753,gemeinde@piesting.at,http://www.piesting.at/
-32320,Matzendorf-Hölles,2751,webmaster@matzendorf.at,http://www.matzendorf.gv.at
+32320,Matzendorf-Hölles,2751,matzendorf-hoelles@gmx.at,http://www.matzendorf.gv.at
 32321,Miesenbach,2761,gemeinde.info@miesenbach.at,http://www.miesenbach.at
 32322,Muggendorf,2763,gemeinde@muggendorf.at,http://www.muggendorf.at
 32323,Pernitz,2763,gemeinde@pernitz.co.at,http://www.pernitz.gv.at
@@ -873,7 +873,7 @@ id,name.name,plz,contact.mail,contact.www
 32524,Schwarzenau,3900,gemeinde@schwarzenau.at,http://www.schwarzenau.gv.at
 32525,Schweiggers,3931,gemeinde@schweiggers.gv.at,http://www.schweiggers.gv.at
 32528,Bad Traunstein,3632,office@bad-traunstein.at,http://www.bad-traunstein.at
-32529,Waldhausen,3914,office@waldviertler-kernland.at,http://www.waldhausen.gv.at
+32529,Waldhausen,3914,info@waldhausen.gv.at,http://www.waldhausen.gv.at
 32530,Zwettl-Niederösterreich,3910,stadtamt@zwettl.gv.at,http://www.zwettl.gv.at
 40101,Linz,4020,info@mag.linz.at,http://www.linz.gv.at
 40201,Steyr,4400,office@steyr.gv.at,http://www.steyr.gv.at
@@ -901,7 +901,7 @@ id,name.name,plz,contact.mail,contact.www
 40421,Mattighofen,5230,office@mattighofen.at,http://www.mattighofen.at
 40422,Mauerkirchen,5270,gemeinde@mauerkirchen.ooe.gv.at,http://www.mauerkirchen.at
 40423,Mining,4962,gemeinde@mining.ooe.gv.at,https://www.mining.ooe.gv.at/
-40424,Moosbach,5271,office@jofra-werbung.at,http://www.moosbach.at
+40424,Moosbach,5271,gemeindeamt@moosbach.at,http://www.moosbach.at
 40425,Moosdorf,5141,service@moosdorf.ooe.gv.at,https://www.moosdorf.ooe.gv.at/
 40426,Munderfing,5222,gemeinde@munderfing.ooe.gv.at,http://www.munderfing.at
 40427,Neukirchen an der Enknach,5145,gemeinde@neukirchen.ooe.gv.at,https://www.neukirchen.ooe.gv.at/
@@ -926,11 +926,11 @@ id,name.name,plz,contact.mail,contact.www
 40446,Weng im Innkreis,4952,gemeinde@weng-innkreis.ooe.gv.at,http://www.weng-innkreis.gv.at
 40501,Alkoven,4072,gemeinde@alkoven.ooe.gv.at,http://www.alkoven.at
 40502,Aschach an der Donau,4082,gemeinde@aschach-donau.ooe.gv.at,http://www.aschach.at
-40503,Eferding,4070,andreas.humer@eferding.at,http://www.eferding.gv.at
+40503,Eferding,4070,gemeinde@eferding.at,https://www.eferding.at/system/web/default.aspx?
 40504,Fraham,4070,gemeinde@fraham.ooe.gv.at,http://www.fraham.at
 40505,Haibach ob der Donau,4083,gemeinde@haibach-donau.ooe.gv.at,https://www.haibach-donau.ooe.gv.at/
 40506,Hartkirchen,4081,gemeinde@hartkirchen.ooe.gv.at,http://www.hartkirchen.at
-40507,Hinzenbach,4070,gerald.fuchsmayr@hinzenbach.ooe.gv.at,http://www.hinzenbach.at
+40507,Hinzenbach,4070,gemeindeamt@hinzenbach.ooe.gv.at,http://www.hinzenbach.at
 40508,Prambachkirchen,4731,gemeinde@prambachkirchen.ooe.gv.at,http://www.prambachkirchen.at
 40509,Pupping,4070,gemeinde@pupping.ooe.gv.at,http://www.pupping.at
 40510,St. Marienkirchen an der Polsenz,4076,gemeinde@st-marienkirchen-polsenz.ooe.gv.at,http://www.st-marienkirchen-polsenz.ooe.gv.at
@@ -945,7 +945,7 @@ id,name.name,plz,contact.mail,contact.www
 40607,Kefermarkt,4292,gemeinde@kefermarkt.ooe.gv.at,http://www.kefermarkt.ooe.gv.at/
 40608,Königswiesen,4280,marktgemeinde@koenigswiesen.at,http://www.koenigswiesen.at
 40609,Lasberg,4291,marktgemeinde@lasberg.at,http://www.lasberg.at
-40610,Leopoldschlag,4262,info@muehlviertel.at,http://www.leopoldschlag.at
+40610,Leopoldschlag,4262,gemeinde@leopoldschlag.ooe.gv.at,http://www.leopoldschlag.ooe.gv.at/
 40611,Liebenau,4252,marktgemeinde@liebenau.at,http://www.liebenau.at
 40612,Neumarkt im Mühlkreis,4212,gemeinde@neumarkt-muehlkreis.ooe.gv.at,https://www.neumarkt-muehlkreis.ooe.gv.at/
 40613,Pierbach,4282,gemeinde@pierbach.ooe.gv.at,http://www.pierbach.at
@@ -954,7 +954,7 @@ id,name.name,plz,contact.mail,contact.www
 40616,Sandl,4251,gemeinde@sandl.ooe.gv.at,http://www.sandl.at
 40617,St. Leonhard bei Freistadt,4294,gemeinde@st-leonhard.ooe.gv.at,https://www.stleonhard.at
 40618,St. Oswald bei Freistadt,4271,gemeinde@stoswald.at,https://www.stoswald.at
-40619,Schönau im Mühlkreis,4274,tdw@gross.schoenau.at,http://www.schoenau.at
+40619,Schönau im Mühlkreis,4274,gemeinde@schoenau-im.at,http://www.schoenau-im.at/
 40620,Tragwein,4284,gemeinde@tragwein.ooe.gv.at,http://www.tragwein.at
 40621,Unterweißenbach,4273,marktgemeinde@unterweissenbach.ooe.gv.at,http://www.unterweissenbach.at
 40622,Unterweitersdorf,4210,gemeinde@unterweitersdorf.ooe.gv.at,http://www.unterweitersdorf.at
@@ -969,7 +969,7 @@ id,name.name,plz,contact.mail,contact.www
 40704,Ebensee am Traunsee,4802,gemeinde@ebensee.ooe.gv.at,http://www.ebensee.at
 40705,Gmunden,4810,stadtamt@gmunden.ooe.gv.at,http://www.gmunden.at
 40706,Gosau,4824,gemeinde@gosau.ooe.gv.at,http://www.gosau.ooe.gv.at
-40707,Grünau im Almtal,4645,info@traunsee-almtal.at,http://www.gruenau-almtal.at
+40707,Grünau im Almtal,4645,gemeinde@gruenau.ooe.gv.at,https://www.gruenau.ooe.gv.at/
 40708,Gschwandt,4816,gemeinde@gschwandt.ooe.gv.at,http://www.gschwandt.at
 40709,Hallstatt,4830,gemeinde@hallstatt.ooe.gv.at,https://www.hallstatt.ooe.gv.at
 40710,Kirchham,4656,gemeinde@kirchham.at,http://www.kirchham.at
@@ -1040,7 +1040,7 @@ id,name.name,plz,contact.mail,contact.www
 40922,Wartberg an der Krems,4552,marktgemeindeamt@wartberg-krems.ooe.gv.at,http://www.wartberg.at
 40923,Windischgarsten,4580,gemeinde@windischgarsten.ooe.gv.at,http://www.windischgarsten.at
 41001,Allhaming,4511,gemeinde@allhaming.ooe.gv.at,http://www.allhaming.at
-41002,Ansfelden,4053,fragmich@ansfelden.co.at,http://www.ansfelden.co.at
+41002,Ansfelden,4053,stadtgemeinde@ansfelden.at,https://www.ansfelden.at/
 41003,Asten,4481,gemeinde@asten.ooe.gv.at,http://www.asten.at
 41004,Eggendorf im Traunkreis,4622,gemeinde@eggendorf.ooe.gv.at,http://www.eggendorf.at
 41005,Enns,4470,office@enns.ooe.gv.at,http://www.enns.at
@@ -1056,7 +1056,7 @@ id,name.name,plz,contact.mail,contact.www
 41015,Niederneukirchen,4491,gemeinde@niederneukirchen.ooe.gv.at,https://www.niederneukirchen.ooe.gv.at/
 41016,Oftering,4064,rudolf.reichardt@oftering.ooe.gv.at,http://www.oftering.at
 41017,Pasching,4061,office@pasching.at,http://www.pasching.at
-41018,Piberbach,4533,kuehboeck@piberbach.ooe.gv.at,http://www.piberbach.at
+41018,Piberbach,4533,gemeinde@piberbach.ooe.gv.at ,http://www.piberbach.at
 41019,Pucking,4055,gemeinde@pucking.ooe.gv.at,http://www.pucking.at
 41020,St. Marien,4502,gemeinde@st-marien.at,http://www.st-marien.at
 41021,Traun,4050,buergerservice@traun.at,http://www.traun.gv.at
@@ -1065,13 +1065,13 @@ id,name.name,plz,contact.mail,contact.www
 41102,Arbing,4341,gemeinde@arbing.ooe.gv.at,http://www.arbing.at
 41103,Baumgartenberg,4342,gemeinde@baumgartenberg.ooe.gv.at,http://www.baumgartenberg.at/
 41104,Dimbach,4371,marktgemeinde@dimbach.ooe.gv.at,https://www.dimbach.at/
-41105,Grein,4360,info@baumfried.at,http://www.grein.co.at
+41105,Grein,4360,stadtamt@grein.ooe.gv.at,http://www.grein.ooe.gv.at/
 41106,Katsdorf,4223,gemeinde@katsdorf.ooe.gv.at,http://www.katsdorf.at
 41107,Klam,4352,gemeinde@klam.at,http://www.klam.at
 41108,Bad Kreuzen,4362,gemeindeamt@bad-kreuzen.at,http://www.bad-kreuzen.at
 41109,Langenstein,4222,gemeinde@langenstein.ooe.gv.at,http://www.langenstein.at
 41110,Luftenberg an der Donau,4225,gemeindeamt@luftenberg.ooe.gv.at,http://www.luftenberg.at
-41111,Mauthausen,4310,gu@mauthausen.at,http://www.mauthausen.at
+41111,Mauthausen,4310,gemeinde@mauthausen.at,http://www.mauthausen.at
 41112,Mitterkirchen im Machland,4343,gemeinde@mitterkirchen.at,http://www.mitterkirchen.at
 41113,Münzbach,4323,gemeinde@muenzbach.ooe.gv.at,http://www.muenzbach.at
 41114,Naarn im Machlande,4331,gemeinde@naarn.ooe.gv.at,http://www.naarn.at
@@ -1125,7 +1125,7 @@ id,name.name,plz,contact.mail,contact.www
 41236,Wippenham,4942,gemeinde@wippenham.ooe.gv.at,http://www.wippenham.at
 41304,Altenfelden,4121,gemeindeamt@altenfelden.at,http://www.altenfelden.at
 41305,Arnreit,4122,gemeinde@arnreit.at,http://www.arnreit.at
-41306,Atzesberg,4152,gemeindeamt@sarleinsbach.at,http://www.atzesberg.ooe.gv.at
+41306,Atzesberg,4152,sepp.scharinger@a1.net,https://www.sarleinsbach.at/Marktgemeinde/Gemeinde_Atzesberg/Buergermeister
 41307,Auberg,4171,gemeinde@auberg.ooe.gv.at,http://www.auberg.at
 41309,Haslach an der Mühl,4170,gemeinde@haslach.ooe.gv.at,https://www.haslach.ooe.gv.at/
 41311,Hörbich,4132,gemeinde@hoerbich.ooe.gv.at,http://www.hoerbich.at
@@ -1196,7 +1196,7 @@ id,name.name,plz,contact.mail,contact.www
 41504,Dietach,4407,gemeinde@dietach.ooe.gv.at,http://www.dietach.at
 41505,Gaflenz,3334,gemeinde@gaflenz.ooe.gv.at,http://www.gaflenz.at
 41506,Garsten,4451,gemeinde@garsten.ooe.gv.at,http://www.garsten.at
-41507,Großraming,4463,gemeinde@gro√É¬É√Ç¬üraming.ooe.gv.at,http://www.grossraming.at
+41507,Großraming,4463,gemeinde@grossraming.ooe.gv.at,http://www.grossraming.at
 41508,Laussa,4461,gemeinde@laussa.ooe.gv.at,http://www.laussa.at
 41509,Losenstein,4460,gemeinde@losenstein.ooe.gv.at,http://www.losenstein.at
 41510,Maria Neustift,4443,gemeinde@maria-neustift.ooe.gv.at,http://www.maria-neustift.at
@@ -1226,7 +1226,7 @@ id,name.name,plz,contact.mail,contact.www
 41614,Lichtenberg,4040,gemeinde@lichtenberg.ooe.gv.at,http://www.lichtenberg.gv.at
 41615,Oberneukirchen,4181,gemeinde@oberneukirchen.ooe.gv.at,http://www.oberneukirchen.at
 41616,Ottenschlag im Mühlkreis,4204,gemeindeamt@ottenschlag.at,http://www.ottenschlag.at/
-41617,Ottensheim,4100,webmaster@ottensheim.at,http://www.ottensheim.at
+41617,Ottensheim,4100,gemeinde@ottensheim.ooe.gv.at,https://www.ottensheim.ooe.gv.at/
 41618,Puchenau,4048,gemeinde@puchenau.at,https://www.puchenau.at/
 41619,Reichenau im Mühlkreis,4204,marktgemeindeamt@reichenau-ooe.at,http://www.reichenau-ooe.at/
 41620,Reichenthal,4193,verwaltung1@reichenthal.at,http://www.reichenthal.at
@@ -1280,7 +1280,7 @@ id,name.name,plz,contact.mail,contact.www
 41741,Straß im Attergau,4881,gemeinde@strass.ooe.gv.at,https://www.strassimattergau.at/
 41742,Tiefgraben,5310,gemeinde@tiefgraben.ooe.gv.at,http://www.tiefgraben.at
 41743,Timelkam,4850,marktgemeinde@timelkam.at,http://www.timelkam.at
-41744,Ungenach,4841,asamer@ungenach.ooe.gv.at,http://www.ungenach.at
+41744,Ungenach,4841,gemeinde@ungenach.ooe.gv.at,http://www.ungenach.at
 41745,Unterach am Attersee,4866,gemeinde@unterach-attersee.ooe.gv.at,https://www.unterach-attersee.ooe.gv.at/
 41746,Vöcklabruck,4840,stadtamt@voecklabruck.at,http://www.voecklabruck.at
 41747,Vöcklamarkt,4870,gemeinde@voecklamarkt.ooe.gv.at,https://www.voecklamarkt.ooe.gv.at/
@@ -1317,9 +1317,9 @@ id,name.name,plz,contact.mail,contact.www
 50201,Abtenau,5441,gemeinde@abtenau.at,http://www.abtenau.at
 50202,Adnet,5421,gemeinde@adnet.at,http://www.adnet.gv.at
 50203,Annaberg-Lungötz,5524,info@annaberg-lungoetz.at,https://www.annaberg-lungoetz.at/
-50204,Golling an der Salzach,5440,info@hauslwirt.at,http://www.golling.at
-50205,Hallein,5400,%E2%80%8Brechnungen@hallein.gv.at,http://www.hallein.gv.at
-50206,Krispl,5425,gem.krispl@salzburg.at,http://www.krispl.gv.at
+50204,Golling an der Salzach,5440,gemeinde@golling.salzburg.at,https://www.golling.salzburg.at/
+50205,Hallein,5400,stadtamt@hallein.gv.at,http://www.hallein.gv.at
+50206,Krispl,5425,gemeindeamt@krispl.gv.at,http://www.krispl.gv.at
 50207,Kuchl,5431,gemeinde@kuchl.net,http://www.kuchl.net/
 50208,Oberalm,5411,gemeinde@oberalm.at,http://www.oberalm.at
 50209,Puch bei Hallein,5412,gemeinde@puchbeihallein.gv.at,http://www.puchbeihallein.gv.at
@@ -1338,7 +1338,7 @@ id,name.name,plz,contact.mail,contact.www
 50309,Elsbethen,5061,post@gde-elsbethen.at,https://www.gde-elsbethen.at/
 50310,Eugendorf,5301,markt@gem-eugendorf.at,http://www.eugendorf.at
 50311,Faistenau,5324,gemeinde@faistenau.at,http://www.faistenau.gv.at
-50312,Fuschl am See,5330,info@fuschlseeregion.com,http://www.fuschlsee.at
+50312,Fuschl am See,5330,gemeinde@fuschlamsee.at,https://www.fuschlamsee.at/
 50313,Göming,5114,gem.goeming@salzburg.at,http://www.goeming.at
 50314,Grödig,5082,gemeinde@groedig.at,http://www.groedig.gv.at
 50315,Großgmain,5084,gemeinde@grossgmain.at,http://www.grossgmain.at
@@ -1353,7 +1353,7 @@ id,name.name,plz,contact.mail,contact.www
 50324,Neumarkt am Wallersee,5202,stadt@neumarkt.at,http://www.neumarkt.at
 50325,Nußdorf am Haunsberg,5151,gemeindeamt@nussdorf.at,http://www.nussdorf.at
 50326,Oberndorf bei Salzburg,5110,stadtgemeinde@oberndorf.salzburg.at,http://www.oberndorf.co.at/
-50327,Obertrum am See,5162,info@salzburger-seenland.at,http://www.obertrum.co.at
+50327,Obertrum am See,5162,office@obertrum.at,https://www.obertrum.at/
 50328,Plainfeld,5325,gemeinde@plainfeld.at,http://www.plainfeld.at
 50329,Sankt Georgen bei Salzburg,5113,post@gem-georgen.salzburg.at,https://www.gem-georgen.salzburg.at
 50330,Sankt Gilgen,5340,office@gemgilgen.at,http://www.gemgilgen.at/
@@ -1404,7 +1404,7 @@ id,name.name,plz,contact.mail,contact.www
 50513,Unternberg,5585,gemeinde@unternberg.gv.at,http://www.unternberg.gv.at
 50514,Weißpriach,5573,gemeinde@weisspriach.gv.at,http://www.weisspriach.gv.at/
 50515,Zederhaus,5584,gemeindeamt@zederhaus.at,http://www.zederhaus.gv.at
-50601,Bramberg am Wildkogel,5733,office@2getmore.at,http://www.bramberg.at
+50601,Bramberg am Wildkogel,5733,gemeinde@bramberg.at,https://www.bramberg.salzburg.at/
 50602,Bruck an der Großglocknerstraße,5671,office@bruck-grossglockner.at,http://www.bruck-grossglocknerstrasse.gv.at
 50603,Dienten am Hochkönig,5652,amtsleitung@dienten.gv.at,http://www.dienten.gv.at
 50604,Fusch an der Großglocknerstraße,5672,gemeinde@fusch.at,http://www.fusch.at
@@ -1420,11 +1420,11 @@ id,name.name,plz,contact.mail,contact.www
 50614,Neukirchen am Großvenediger,5741,gemeinde@neukirchen.at,https://www.neukirchen.salzburg.at/
 50615,Niedernsill,5722,gemeinde@niedernsill.at,http://www.niedernsill.salzburg.at/
 50616,Piesendorf,5721,gemeinde@piesendorf.salzburg.at,https://www.piesendorf.salzburg.at/
-50617,Rauris,5661,info@raurisertal.at,http://www.rauris.co.at
-50618,Saalbach-Hinterglemm,5753,office@gumplod.at,http://www.saalbach-hinterglemm.at
+50617,Rauris,5661,gemeinde@rauris.net,https://www.rauris.net/
+50618,Saalbach-Hinterglemm,5753,gemeinde@saalbach.at,https://www.saalbach.or.at/
 50619,Saalfelden am Steinernen Meer,5760,post@saalfelden.at,http://www.saalfelden.at
-50620,Sankt Martin bei Lofer,5092,gemeinde@stmartin.at,https://www.stmartin.at/Home.10.0.html
-50621,Stuhlfelden,5724,welcome@mittersill.info,http://www.stuhlfelden.at
+50620,Sankt Martin bei Lofer,5092,gemeinde@stmartin.at,https://www.stmartin.at/
+50621,Stuhlfelden,5724,gemeindeamt@stuhlfelden.salzburg.at,https://www.stuhlfelden.salzburg.at/
 50622,Taxenbach,5660,sekretariat@taxenbach.gv.at,http://www.taxenbach.gv.at
 50623,Unken,5091,gemeinde@gde-unken.salzburg.at,http://www.unken.gv.at
 50624,Uttendorf,5723,gemeinde@uttendorf.at,http://www.uttendorf.at
@@ -1432,7 +1432,7 @@ id,name.name,plz,contact.mail,contact.www
 50626,Wald im Pinzgau,5742,gemeinde@wald-pzg.at,http://www.wald.salzburg.at/
 50627,Weißbach bei Lofer,5093,tourismus@weissbach.at,http://www.weissbach.at
 50628,Zell am See,5700,office@zellamsee.eu,https://www.zellamsee.eu/
-60101,Graz,8010,office@icomedias.com,http://www.graz.gv.at
+60101,Graz,8010,buergermeisterin.kahr@stadt.graz.at,http://www.graz.gv.at
 60305,Frauental an der Laßnitz,8523,gemeinde@gde-frauental.at,https://www.gde-frauental.at/
 60318,Lannach,8502,gde@lannach.gv.at,http://www.lannach.gv.at
 60323,Pölfing-Brunn,8544,gde@poelfing-brunn.at,http://www.poelfing-brunn.gv.at
@@ -1465,8 +1465,8 @@ id,name.name,plz,contact.mail,contact.www
 60642,Sankt Radegund bei Graz,8061,gemeinde@radegund.info,https://www.radegund.info/home
 60645,Semriach,8102,gemeinde@semriach.at,http://www.semriach.at
 60646,Stattegg,8046,gde@stattegg.gv.at,https://www.stattegg.eu/
-60647,Stiwoll,8113,alfred.brettenthaler@gmx.at,http://www.stiwoll.at
-60648,Thal,8051,dorfassistenz@thal.at,http://www.thal.at
+60647,Stiwoll,8113,gde@stiwoll.gv.at,http://www.stiwoll.at
+60648,Thal,8051,thal@sulzberg.at,http://www.thal.at
 60651,Übelbach,8124,gde@uebelbach.gv.at,https://www.uebelbach.gv.at/
 60653,Vasoldsberg,8076,gde@vasoldsberg.at,http://www.vasoldsberg.gv.at
 60654,Weinitzen,8044,gde@weinitzen.steiermark.at,http://www.weinitzen.gv.at
@@ -1497,7 +1497,7 @@ id,name.name,plz,contact.mail,contact.www
 61021,Lebring-Sankt Margarethen,8403,info@lebring-st-margarethen.gv.at,http://www.lebring.gv.at
 61024,Oberhaag,8455,gde@oberhaag.gv.at,http://www.oberhaag.gv.at
 61027,Ragnitz,8413,gde@ragnitz.gv.at,http://www.ragnitz.gv.at
-61030,Sankt Andrä-Höch,8444,gde@st-andrae-hoech.steiermark.at,http://www.st-andrae-hoech.atstartseite/
+61030,Sankt Andrä-Höch,8444,gde@st-andrae-hoech.steiermark.at,http://st-andrae-hoech.at
 61032,Sankt Johann im Saggautal,8453,gde@st-johann-saggautal.steiermark.at,https://www.st-johann-saggautal.gv.at
 61033,Sankt Nikolai im Sausal,8505,gemeinde@nikolai-sausal.at,https://www.nikolai-sausal.at
 61043,Tillmitsch,8430,gde@tillmitsch.gv.at,http://www.tillmitsch.at
@@ -1533,7 +1533,7 @@ id,name.name,plz,contact.mail,contact.www
 61204,Altaussee,8992,gemeinde@altaussee.at,http://www.altaussee.gv.at
 61205,Altenmarkt bei Sankt Gallen,8934,gde@altenmarkt-st-gallen.gv.at,https://altenmarkt.istsuper.com/
 61206,Ardning,8904,gde@ardning.at,http://www.ardning.at
-61207,Bad Aussee,8990,info@ausseerland.at,https://ausseerland.salzkammergut.at/
+61207,Bad Aussee,8990,gemeinde@badaussee.at,https://www.badaussee.at/
 61213,Gröbming,8962,marktgemeinde@groebming.at,http://www.groebming.at
 61215,Grundlsee,8993,amtsleitung@grundlsee.at,http://www.grundlsee.at
 61217,Haus,8967,gemeinde@haus.at,http://www.haus.at
@@ -1545,7 +1545,7 @@ id,name.name,plz,contact.mail,contact.www
 61252,Wörschach,8942,gde@woerschach.gv.at,http://www.woerschach.at
 61253,Admont,8911,gde@admont.gv.at,http://www.admont.gv.at
 61254,Aich,8966,gemeinde@aich.at,http://www.aich.at
-61255,Bad Mitterndorf,8983,haustechnik@chello.at,http://www.bad.co.at
+61255,Bad Mitterndorf,8983,gde@bad-mitterndorf.gv.at,https://gemeinde.bad-mitterndorf.at/de/
 61256,Gaishorn am See,8783,gde@gaishorn-see.gv.at,http://www.gaishorn-see.gv.at
 61257,Irdning-Donnersbachtal,8952,gemeinde@irdning.at,http://www.irdning-donnersbachtal.gv.at
 61258,Landl,8931,gde@landl.gv.at,http://www.landl.at
@@ -1557,8 +1557,8 @@ id,name.name,plz,contact.mail,contact.www
 61264,Sankt Gallen,8933,gde@st-gallen.gv.at,https://st-gallen.istsuper.com/
 61265,Schladming,8970,gemeinde@schladming.at,https://gemeinde.schladming.at/
 61266,Sölk,8961,gde@soelk.gv.at,http://www.soelk.gv.at
-61267,Stainach-Pürgg,8950,office@sysup.at,http://www.stainach.at
-61410,Mühlen,8822,mg.muehlen@gmail.com,http://www.muehlen.at
+61267,Stainach-Pürgg,8950,gde@stainach-puergg.gv.at,https://www.stainach-puergg.gv.at/
+61410,Mühlen,8822,gemeinde@muehlen.at,http://www.muehlen.at
 61413,Niederwölz,8831,gde@niederwoelz.gv.at,http://www.niederwoelz.gv.at
 61425,St. Peter am Kammersberg,8843,gde@st-peter-kammersberg.gv.at,http://www.st-peter-kammersberg.gv.at
 61428,Schöder,8844,gde@schoeder.gv.at,http://www.schoeder.gv.at
@@ -1589,16 +1589,16 @@ id,name.name,plz,contact.mail,contact.www
 61633,Söding-Sankt Johann,8561,gde@soeding-st-johann.gv.at,http://www.soeding.at
 61701,Albersdorf-Prebuch,8200,gde@albersdorf.at,http://www.albersdorf.at
 61708,Fischbach,8654,gde@fischbach.steiermark.at,http://www.fischbach.co.at
-61710,Floing,8183,bgm.gruber@live.at,http://www.floing.at
+61710,Floing,8183,gde@floing.steiermark.at,http://www.floing.at
 61711,Gasen,8616,gde@gasen.gv.at,http://www.gasen.at
 61716,Markt Hartmannsdorf,8311,gde@markthartmannsdorf.at,http://www.markt-hartmannsdorf.at
-61719,Hofstätten an der Raab,8200,office@macherfenster.at,http://www.hofstaetten.at
+61719,Hofstätten an der Raab,8200,gde@hofstaetten-raab.gv.at,http://www.hofstaetten.at
 61727,Ludersdorf-Wilfersdorf,8200,gde@lu-wi.at,http://www.ludersdorf-wilfersdorf.at
 61728,Miesenbach bei Birkfeld,8190,gde@miesenbach-birkfeld.gv.at,https://www.miesenbach.com/
 61729,Mitterdorf an der Raab,8181,gde@mitterdorf-raab.steiermark.at,http://www.mitterdorf-raab.at
 61730,Mortantsch,8160,info@mortantsch.at,http://www.mortantsch.at
 61731,Naas,8160,gde@naas.gv.at,http://www.naas.at
-61740,Puch bei Weiz,8182,info@apfelstrasse.at,http://www.puchbeiweiz.at
+61740,Puch bei Weiz,8182,gde@puch-weiz.gv.at,https://www.puch-weiz.gv.at/
 61741,Ratten,8673,gde@ratten.steiermark.at,https://www.ratten-steiermark.at/
 61743,Rettenegg,8674,gde@rettenegg.steiermark.at,http://www.rettenegg.at
 61744,St. Kathrein am Hauenstein,8672,gde@st-kathrein-hauenstein.steiermark.at,http://www.st-kathrein-hauenstein.at
@@ -1620,7 +1620,7 @@ id,name.name,plz,contact.mail,contact.www
 61766,Weiz,8160,stadtgemeinde@weiz.at,https://www.weiz.at/
 62007,Fohnsdorf,8753,gde@fohnsdorf.gv.at,http://www.fohnsdorf.at
 62008,Gaal,8731,gde@gaal.gv.at,http://www.gaal.gv.at
-62010,Hohentauern,8785,urlaub@murau-murtal.at,http://www.hohentauern.at
+62010,Hohentauern,8785,gde@hohentauern.gv.at,http://www.hohentauern.at
 62014,Kobenz,8723,gde@kobenz.gv.at,http://www.kobenz.gv.at
 62021,Pusterwald,8764,gemeinde@pusterwald.at,http://www.pusterwald.at
 62026,Sankt Georgen ob Judenburg,8756,gde@st-georgen-judenburg.gv.at,http://www.st-georgen-judenburg.at
@@ -1631,7 +1631,7 @@ id,name.name,plz,contact.mail,contact.www
 62039,Lobmingtal,8734,gemeinde@lobmingtal.gv.at,http://www.lobmingtal.gv.at
 62040,Judenburg,8750,post@judenburg.gv.at,http://www.judenburg.gv.at
 62041,Knittelfeld,8720,stadtgemeinde@knittelfeld.gv.at,http://www.knittelfeld.gv.at
-62042,Obdach,8742,tischlerei.baumgartner@obdach.at,http://www.obdach.at
+62042,Obdach,8742,gemeinde@obdach.gv.at,https://marktgemeinde-obdach.at/
 62043,Pöls-Oberkurzheim,8761,gemeinde@poels-oberkurzheim.gv.at,http://www.poels-oberkurzheim.gv.at
 62044,Pölstal,8763,gde@poelstal.gv.at,http://www.poelstal.gv.at
 62045,Sankt Marein-Feistritz,8733,gde@st-marein-feistritz.gv.at,https://www.st-marein-feistritz.gv.at
@@ -1643,7 +1643,7 @@ id,name.name,plz,contact.mail,contact.www
 62116,Langenwang,8665,gde@langenwang.gv.at,http://www.langenwang.at
 62125,Pernegg an der Mur,8132,gde@pernegg.at,http://pernegg.at/
 62128,Sankt Lorenzen im Mürztal,8642,gde@stlorenzen.at,http://www.stlorenzen.at
-62131,Spital am Semmering,8684,info@pellets-portal.at,http://www.spital.co.at
+62131,Spital am Semmering,8684,gemeinde@spital-semmering.gv.at,https://www.spitalamsemmering.com/
 62132,Stanz im Mürztal,8653,office@stanz.at,http://www.stanz.at/
 62135,Turnau,8625,gde@turnau.steiermark.at,http://www.turnau.gv.at
 62138,Aflenz,8623,gde@aflenz.gv.at,http://www.aflenz.at
@@ -1651,9 +1651,9 @@ id,name.name,plz,contact.mail,contact.www
 62140,Kapfenberg,8605,gde@kapfenberg.gv.at,http://www.kapfenberg.gv.at
 62141,Kindberg,8650,stadtgemeinde@kindberg.at,http://www.kindberg.gv.at
 62142,Mariazell,8630,office@mariazell.gv.at,http://www.mariazell.gv.at
-62143,Mürzzuschlag,8680,supportmailx@xbaton.at,http://www.muerzzuschlag.gv.at
+62143,Mürzzuschlag,8680,stadtamt@mzz.at,https://www.muerzzuschlag.at/
 62144,Neuberg an der Mürz,8692,gde@neuberg-muerz.gv.at,http://www.neuberg-muerz.gv.at
-62145,Sankt Barbara im Mürztal,8662,gerlinde.zottler@st-barbara.gv.at,https://www.st-barbara.gv.at
+62145,Sankt Barbara im Mürztal,8662,gde@st-barbara.gv.at,https://www.st-barbara.gv.at
 62146,Sankt Marein im Mürztal,8641,gde@st-marein-muerztal.gv.at,https://www.stmarein-mzt.at
 62147,Thörl,8621,gde@thoerl.gv.at,http://www.thoerl.gv.at
 62148,Tragöß-Sankt Katharein,8611,gde@tragoess-st-katharein.gv.at,http://www.tragoess-st-katharein.gv.at
@@ -1668,13 +1668,13 @@ id,name.name,plz,contact.mail,contact.www
 62220,Hartberg Umgebung,8230,gde@hartberg-umgebung.gv.at,http://www.hartberg-umgebung.gv.at
 62226,Lafnitz,8233,gde@lafnitz.steiermark.at,http://www.lafnitz.gv.at
 62232,Ottendorf an der Rittschein,8312,gde@ottendorf.gv.at,https://www.ottendorf-rittschein.steiermark.at
-62233,Pinggau,8243,luckerbauer@pinggau.gv.at,http://www.pinggau.gv.at
+62233,Pinggau,8243,gde@pinggau.gv.at,http://www.pinggau.gv.at
 62235,Pöllauberg,8225,gde@poellauberg.steiermark.at,http://www.poellauberg.gv.at
 62242,Sankt Jakob im Walde,8255,gde@st-jakob-walde.gv.at,https://www.st-jakob-walde.gv.at
 62244,Sankt Johann in der Haide,8295,gde@st-johann-haide.gv.at,http://www.st-johann-haide.steiermark.at
 62245,Sankt Lorenzen am Wechsel,8242,gde@st-lorenzen-wechsel.steiermark.at,https://www.st-lorenzen-wechsel.at
 62247,Schäffern,8244,gde@schaeffern.gv.at,http://www.schaeffern.gv.at
-62252,Söchau,8362,webmaster@soechau.at,http://www.soechau.at
+62252,Söchau,8362,gde@soechau.gv.at,http://soechau.steiermark.at
 62256,Stubenberg,8223,gde@stubenberg.gv.at,http://www.stubenberg.gv.at
 62262,Wenigzell,8254,gde@wenigzell.gv.at,http://www.wenigzell.gv.at
 62264,Bad Waltersdorf,8271,gde@bad-waltersdorf.gv.at,http://www.bad-waltersdorf.gv.at
@@ -1689,7 +1689,7 @@ id,name.name,plz,contact.mail,contact.www
 62273,Bad Loipersdorf,8282,gde@bad-loipersdorf.gv.at,https://gemeinde.loipersdorf.at
 62274,Neudau,8292,gde@neudau.gv.at,http://www.neudau.gv.at
 62275,Pöllau,8225,gde@poellau.gv.at,http://www.poellau.at
-62276,Rohr bei Hartberg,8294,juergen.peindl@rohr-bei-hartberg.at,http://www.rohr-bei-hartberg.at
+62276,Rohr bei Hartberg,8294,gde@rohr-bei-hartberg.at,http://www.rohr-bei-hartberg.at
 62277,Rohrbach an der Lafnitz,8234,gde@rohrbach-lafnitz.gv.at,http://www.rohrbach-lafnitz.at
 62278,Vorau,8250,gde@vorau.steiermark.at,http://www.vorau.at
 62279,Waldbach-Mönichwald,8252,gde@waldbach-moenichwald.gv.at,http://www.waldbach-moenichwald.gv.at
@@ -1702,7 +1702,7 @@ id,name.name,plz,contact.mail,contact.www
 62343,Mettersdorf am Saßbach,8092,gde@mettersdorf.com,http://www.mettersdorf.gv.at
 62368,Tieschen,8355,gde@tieschen.gv.at,http://www.tieschen.gv.at
 62372,Unterlamm,8352,gde@unterlamm.gv.at,http://www.unterlamm.gv.at
-62375,Bad Gleichenberg,8344,webmaster@bad-gleichenberg.gv.at,http://www.bad-gleichenberg.gv.at
+62375,Bad Gleichenberg,8344,gde@bad-gleichenberg.gv.at,http://www.bad-gleichenberg.gv.at
 62376,Bad Radkersburg,8490,gde@bad-radkersburg.gv.at,http://www.bad-radkersburg.gv.at
 62377,Deutsch Goritz,8483,gde@deutsch-goritz.gv.at,http://www.deutsch-goritz.at
 62378,Fehring,8350,gde@fehring.gv.at,http://www.fehring.at
@@ -1778,19 +1778,19 @@ id,name.name,plz,contact.mail,contact.www
 70336,Obernberg am Brenner,6157,gemeinde@obernberg-brenner.tirol.gv.at,https://www.obernberg.tirol.gv.at/
 70337,Oberperfuss,6173,gemeinde@oberperfuss.tirol.gv.at,http://www.gemeinde-oberperfuss.at
 70338,Patsch,6082,gemeinde@patsch.tirol.gv.at,http://www.patsch.gv.at
-70339,Pettnau,6408,gemeinde@petrtnau.tirol.gv.at,http://www.pettnau.at
+70339,Pettnau,6408,gemeinde@pettnau.tirol.gv.at,http://www.pettnau.at
 70340,Pfaffenhofen,6405,gemeinde@pfaffenhofen.tirol.gv.at,http://www.pfaffenhofen.tirol.gv.at
 70341,Pfons,6143,gemeinde@pfons.tirol.gv.at,http://www.pfons.tirol.gv.at
 70342,Polling in Tirol,6404,gemeinde@polling.tirol.gv.at,http://www.polling.at
 70343,Ranggen,6179,gemeinde@ranggen.tirol.gv.at,http://www.ranggen.at
-70344,Reith bei Seefeld,6103,info.reith@seefeld.com,http://www.reithbeiseefeld.at
+70344,Reith bei Seefeld,6103,gemeinde@reith-seefeld.at%20,https://www.reith-seefeld.at/
 70345,Rinn,6074,gemeinde@rinn.tirol.gv.at,http://www.rinn.tirol.gv.at/
 70346,Rum,6063,marktgemeinde@rum.gv.at,http://www.rum.gv.at
 70347,St. Sigmund im Sellrain,6184,gemeinde@st-sigmund-sellrain.tirol.gv.at,https://www.stsigmund.tirol.gv.at
 70348,Scharnitz,6108,gemeinde@scharnitz.tirol.gv.at,http://www.scharnitz.tirol.gv.at/
 70349,Schmirn,6154,gemeinde@schmirn.tirol.gv.at,http://www.schmirn.tirol.gv.at/
 70350,Schönberg im Stubaital,6141,gemeinde@schoenberg.tirol.gv.at,https://www.schoenberg.tirol.gv.at/
-70351,Seefeld in Tirol,6100,info@seefeld.com,http://www.seefeld-tirol.at
+70351,Seefeld in Tirol,6100,gemeinde@seefeld.eu,https://www.gemeinde-seefeld.eu/
 70352,Sellrain,6181,gemeinde@sellrain.tirol.gv.at,http://www.sellrain.tirol.gv.at/
 70353,Sistrans,6073,gemeinde@sistrans.at,http://www.sistrans.at
 70354,Hall in Tirol,6060,stadtamt@stadthall.at,https://www.hall-in-tirol.at
@@ -1846,7 +1846,7 @@ id,name.name,plz,contact.mail,contact.www
 70517,Münster,6232,gemeinde@muenster.at,https://www.muenster.at/
 70518,Niederndorf,6342,gemeinde@niederndorf.tirol.gv.at,http://www.niederndorf.at
 70519,Niederndorferberg,6346,gemeinde@niederndorferberg.tirol.gv.at,http://www.niederndorferberg.tirol.gv.at
-70520,Radfeld,6241,erwachsenenschule@angerberg.at,http://www.radfeld.at
+70520,Radfeld,6241,gemeinde@radfeld.tirol.gv.at,https://www.radfeld.tirol.gv.at/
 70521,Rattenberg,6240,gemeinde@rattenberg.tirol.gv.at,http://www.rattenberg.at
 70522,Reith im Alpbachtal,6235,gemeinde@reithia.at,https://www.reithimalpbachtal.tirol.gv.at
 70523,Rettenschöss,6347,verwaltung@rettenschoess.tirol.gv.at,http://www.rettenschoess.at
@@ -1898,13 +1898,13 @@ id,name.name,plz,contact.mail,contact.www
 70708,Gaimberg,9905,gemeinde@gaimberg.at,http://www.gaimberg.at
 70709,Hopfgarten in Defereggen,9961,gde.hopfgarten@defnet.at,https://www.defereggental.eu/page.cfm?vpath=hopfgarten
 70710,Innervillgraten,9932,gemeinde@innervillgraten.at,http://www.innervillgraten.at
-70711,Iselsberg-Stronach,9992,office@permedia.at,http://www.iselsberg-stronach.at
+70711,Iselsberg-Stronach,9992,office@gemeinde-iselsberg.at,http://www.iselsberg-stronach.at
 70712,Kals am Großglockner,9981,mail@kals.at,http://www.kals-grossglockner.at
 70713,Kartitsch,9941,gemeindeamt@kartitsch.at,http://www.kartitsch.at
 70714,Lavant,9906,gemeinde@lavant.at,http://www.lavant.at
 70715,Leisach,9909,gemeinde@leisach.tirol.gv.at,http://www.leisach.gv.at
 70716,Lienz,9900,rathaus@stadt-lienz.at,http://www.lienz.gv.at
-70717,Matrei in Osttirol,9971,welcome@sunmatrei.com,http://www.matrei-osttirol.at
+70717,Matrei in Osttirol,9971,gemeinde@matrei-ost.tirol.gv.at,http://www.matrei-ost.tirol.gv.at
 70718,Nikolsdorf,9782,gemeinde@nikolsdorf.at,http://www.nikolsdorf.at
 70719,Nußdorf-Debant,9990,marktgemeinde@nussdorf-debant.at,http://www.nussdorf-debant.at
 70720,Oberlienz,9903,gemeinde@oberlienz.at,http://www.oberlienz.at
@@ -2043,7 +2043,7 @@ id,name.name,plz,contact.mail,contact.www
 80215,Hard,6971,hard@hard.at,https://www.hard.at
 80216,Hittisau,6952,gemeinde@hittisau.at,http://www.hittisau.at
 80217,Höchst,6973,gemeindeamt@hoechst.at,http://www.hoechst.at
-80218,Hörbranz,6912,gemeinde@hoerbran.at,http://www.hoerbranz.at
+80218,Hörbranz,6912,gemeinde@hoerbranz.at,http://www.hoerbranz.at
 80219,Hohenweiler,6914,gemeinde@hohenweiler.at,http://www.hohenweiler.at
 80220,Kennelbach,6921,info@kennelbach.at,http://www.kennelbach.at
 80221,Krumbach,6942,gemeindeamt@krumbach.at,http://www.krumbach.at/
@@ -2059,39 +2059,39 @@ id,name.name,plz,contact.mail,contact.www
 80231,Riefensberg,6943,gemeinde@riefensberg.at,http://www.riefensberg.at
 80232,Schnepfau,6882,gemeindeamt@schnepfau.at,http://www.schnepfau.at
 80233,Schoppernau,6886,gemeindeamt@schoppernau.at,http://www.schoppernau.at
-80234,Schröcken,6888,info@warth-schroecken.com,https://www.warth-schroecken.at
+80234,Schröcken,6888,gemeinde@schroecken.at,https://www.gemeinde-schroecken.at/
 80235,Schwarzach,6858,gemeinde@schwarzach.at,http://www.schwarzach.at
 80236,Schwarzenberg,6867,gemeinde@schwarzenberg.cnv.at,http://www.gemeinde-schwarzenberg.at
-80237,Sibratsgfäll,6767,sibra@sibra.at,http://www.sibra.at/index.php
-80238,Sulzberg,6952,gemeinde@sulzberg.at,http://www.sulzberg.at
-80239,Warth,6934,info@warth-schroecken.com,https://www.warth-schroecken.at/
-80240,Wolfurt,6767,gemeinde@wolfurt.at,http://www.wolfurt.at
-80301,Dornbirn,6922,stadt_@dornbirn.at,https://www.dornbirn.at/
-80302,Hohenems,6850,stadt@hohenems.at,https://www.hohenems.at
-80303,Lustenau,6845,gemeindeamt@lustenau.at,http://www.lustenau.gv.at
-80401,Altach,6890,gemeinde@altach.at,http://www.altach.at
+80237,Sibratsgfäll,6952,sibra@sibra.at,http://www.sibra.at/index.php
+80238,Sulzberg,6934,gemeinde@sulzberg.at,http://www.sulzberg.at
+80239,Warth,6767,gemeinde@warth.at,https://www.gemeinde-warth.at/
+80240,Wolfurt,6922,gemeinde@wolfurt.at,http://www.wolfurt.at
+80301,Dornbirn,6850,stadt@dornbirn.at,https://www.dornbirn.at/
+80302,Hohenems,6845,stadt@hohenems.at,https://www.hohenems.at
+80303,Lustenau,6890,gemeindeamt@lustenau.at,http://www.lustenau.gv.at
+80401,Altach,6844,gemeinde@altach.at,http://www.altach.at
 80402,Düns,6844,gemeinde@duens.at,http://duens.at
 80403,Dünserberg,6822,gemeinde@duenserberg.cnv.at,http://www.duenserberg.at
-80404,Feldkirch,6822,info@feldkirch.at,http://www.feldkirch.gv.at
-80405,Frastanz,6800,buergerservice@frastanz.at,http://www.frastanz.at
-80406,Fraxern,6820,gemeinde@fraxern.at,http://www.fraxern.at
-80407,Göfis,6833,gemeindeamt@goefis.at,http://www.goefis.at
-80408,Götzis,6811,marktgemeinde@goetzis.at,http://www.goetzis.at
-80409,Klaus,6840,gemeinde@klaus.cnv.at,https://www.klaus.at
-80410,Koblach,6833,gemeinde@koblach.at,http://www.koblach.at
-80411,Laterns,6842,gemeindeamt@laternsertal.at,http://www.laterns.at
-80412,Mäder,6830,gemeinde@maeder.at,https://maeder.at/
-80413,Meiningen,6841,gemeinde@meiningen.at,http://www.meiningen.at
-80414,Rankweil,6812,marktgemeinde@rankweil.at,http://www.rankweil.at
-80415,Röns,6830,gemeinde@roens.at,http://www.roens.at
-80416,Röthis,6822,gemeinde@roethis.at,http://www.roethis.at
-80417,Satteins,6832,gemeinde@satteins.net,https://www.satteins.net
-80418,Schlins,6822,info@schlins.at,http://www.schlins.at
-80419,Schnifis,6824,gemeinde@schnifis.at,http://www.schnifis.at
-80420,Sulz,6822,info@gemeinde-sulz.at,https://www.gemeinde-sulz.at/
-80421,Übersaxen,6832,gemeinde@uebersaxen.at,http://www.übersaxen.at
-80422,Viktorsberg,6834,gemeinde@viktorsberg.at,http://www.viktorsberg.at
-80423,Weiler,6833,gemeindeamt@gemeinde-weiler.at,http://www.gemeinde-weiler.at
+80404,Feldkirch,6800,info@feldkirch.at,http://www.feldkirch.gv.at
+80405,Frastanz,6820,buergerservice@frastanz.at,http://www.frastanz.at
+80406,Fraxern,6833,gemeinde@fraxern.at,http://www.fraxern.at
+80407,Göfis,6811,gemeindeamt@goefis.at,http://www.goefis.at
+80408,Götzis,6840,marktgemeinde@goetzis.at,http://www.goetzis.at
+80409,Klaus,6833,gemeinde@klaus.cnv.at,https://www.klaus.at
+80410,Koblach,6842,gemeinde@koblach.at,http://www.koblach.at
+80411,Laterns,6830,gemeindeamt@laternsertal.at,http://www.laterns.at
+80412,Mäder,6841,gemeinde@maeder.at,https://maeder.at/
+80413,Meiningen,6812,gemeinde@meiningen.at,http://www.meiningen.at
+80414,Rankweil,6830,marktgemeinde@rankweil.at,http://www.rankweil.at
+80415,Röns,6822,gemeinde@roens.at,http://www.roens.at
+80416,Röthis,6832,gemeinde@roethis.at,http://www.roethis.at
+80417,Satteins,6822,gemeinde@satteins.net,https://www.satteins.net
+80418,Schlins,6824,info@schlins.at,http://www.schlins.at
+80419,Schnifis,6822,gemeinde@schnifis.at,http://www.schnifis.at
+80420,Sulz,6832,info@gemeinde-sulz.at,https://www.gemeinde-sulz.at/
+80421,Übersaxen,6834,gemeinde@uebersaxen.at,http://www.übersaxen.at
+80422,Viktorsberg,6836,gemeinde@viktorsberg.at,http://www.viktorsberg.at
+80423,Weiler,6837,gemeindeamt@gemeinde-weiler.at,http://www.gemeinde-weiler.at
 80424,Zwischenwasser,6835,gemeinde@zwischenwasser.at,http://www.zwischenwasser.at
 90101,Wien Innere Stadt,1010,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/
 90201,Wien Leopoldstadt,1020,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/
@@ -2107,7 +2107,7 @@ id,name.name,plz,contact.mail,contact.www
 91201,Wien Meidling,1120,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/
 91301,Wien Hietzing,1130,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/
 91401,Wien Penzing,1140,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/
-91501,Wien Rudolfsheim-Fünfhaus,1150,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/
+91501,Wien Fünfhaus,1150,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/
 91601,Wien Ottakring,1160,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/
 91701,Wien Hernals,1170,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/
 91801,Wien Währing,1180,post@ma19.wien.gv.at,https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/

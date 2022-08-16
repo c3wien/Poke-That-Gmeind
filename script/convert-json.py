@@ -11,6 +11,10 @@ for city in cities:
     plz = city["PLZ"]
     www = city["Website"]
     mail = city["Mail"]
+    if str(gkz)[0] == '9':
+        gemeindename = "Wien " + gemeindename
+        www = "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
+        mail = "post@ma19.wien.gv.at"
     obj = {
                 "id": gkz,
                 "name": {"name": gemeindename},
@@ -21,25 +25,5 @@ for city in cities:
                 }
             }
     objs[gkz] = obj
-
-with open('/tmp/wien_JSON.json', "r") as f:
-    bezirke = load(f)
-
-for plz in (bezirke["Bezirksname"].keys()):
-    PLZ = str(plz)
-    GKZ = "9"+PLZ[1:3]+"01"
-    name = bezirke["Bezirksname"][plz]
-    mail = bezirke["Mail"][plz]
-    www = "https://www.wien.gv.at/bezirke/"+name.lower()+"/"
-    obj = {
-                "id": GKZ,
-                "name": {"name": name},
-                "plz": plz,
-                "contact": {
-                    "mail": mail,
-                    "www": www
-                }
-          }
-    objs[GKZ] = obj
 
 print(dumps(objs))
