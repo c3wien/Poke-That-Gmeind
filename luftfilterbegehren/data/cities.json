@@ -18,7 +18,7 @@
     "plz": 7071,
     "contact": {
       "mail": "post@rust.bgld.gv.at",
-      "www": "http://www.freistadt-rust.at/"
+      "www": "https://www.freistadt-rust.at/"
     }
   },
   "10301": {
@@ -149,8 +149,8 @@
     },
     "plz": 7083,
     "contact": {
-      "mail": "info@purbach.at",
-      "www": "http://www.purbach.at"
+      "mail": "stadtgemeinde@purbach.gv.at",
+      "www": "https://www.purbach.gv.at/"
     }
   },
   "10313": {
@@ -281,7 +281,7 @@
     },
     "plz": 7551,
     "contact": {
-      "mail": "info@bocksdorf.at",
+      "mail": "post@bocksdorf.bgld.gv.at",
       "www": "http://www.bocksdorf.at"
     }
   },
@@ -490,7 +490,7 @@
     },
     "plz": 7540,
     "contact": {
-      "mail": "post@strem.bgld.gv.at",
+      "mail": "post@grossmuerbisch.bgld.gv.at",
       "www": "http://www.grossmuerbisch.at"
     }
   },
@@ -600,7 +600,7 @@
     },
     "plz": 7562,
     "contact": {
-      "mail": "post@elterndorf.bgld.gv.gv.at",
+      "mail": "post@eltendorf.bgld.gv.at",
       "www": "http://www.eltendorf.at"
     }
   },
@@ -985,8 +985,8 @@
     },
     "plz": 2474,
     "contact": {
-      "mail": "kundenservice@kabelplus.co.at",
-      "www": "http://www.gemeinde-gattendorf.at"
+      "mail": "buergerservice@gattendorf.bgld.gv.at",
+      "www": "https://www.gattendorf.at/"
     }
   },
   "10707": {
@@ -1106,7 +1106,7 @@
     },
     "plz": 7111,
     "contact": {
-      "mail": "office@eloops.at",
+      "mail": "post@parndorf.bgld.gv.at",
       "www": "http://www.gemeinde-parndorf.at"
     }
   },
@@ -1359,8 +1359,8 @@
     },
     "plz": 7311,
     "contact": {
-      "mail": "winzerkeller@neckenmarkt.at",
-      "www": "http://www.neckenmarkt.at"
+      "mail": "post@neckenmarkt.bgld.gv.at",
+      "www": "https://www.neckenmarkt.net/gemeinde/"
     }
   },
   "10814": {
@@ -1513,7 +1513,7 @@
     },
     "plz": 7374,
     "contact": {
-      "mail": "none",
+      "mail": "post@weingraben.bgld.gv.at",
       "www": "none"
     }
   },
@@ -1568,8 +1568,8 @@
     },
     "plz": 7423,
     "contact": {
-      "mail": "none",
-      "www": "none"
+      "mail": "post@grafenschachen.bgld.gv.at",
+      "www": "grafenschachen.at"
     }
   },
   "10905": {
@@ -1623,7 +1623,7 @@
     },
     "plz": 7532,
     "contact": {
-      "mail": "info@litzelsdorf.at",
+      "mail": "post@litzelsdorf.bgld.gv.at",
       "www": "http://www.litzelsdorf.at"
     }
   },
@@ -1634,8 +1634,8 @@
     },
     "plz": 7410,
     "contact": {
-      "mail": "info@panoramahof.com",
-      "www": "http://www.loipersdorf.co.at"
+      "mail": "gde@bad-loipersdorf.gv.at",
+      "www": "https://gemeinde.loipersdorf.at/"
     }
   },
   "10911": {
@@ -1755,8 +1755,8 @@
     },
     "plz": 7501,
     "contact": {
-      "mail": "none",
-      "www": "nope"
+      "mail": "post@rotenturm-pinka.bgld.gv.at",
+      "www": "none"
     }
   },
   "10922": {
@@ -1898,7 +1898,7 @@
     },
     "plz": 9500,
     "contact": {
-      "mail": "service@villach.at",
+      "mail": "buergerservice@villach.at",
       "www": "http://www.villach.at"
     }
   },
@@ -2030,7 +2030,7 @@
     },
     "plz": 9074,
     "contact": {
-      "mail": "office@caritas-kaernten.at",
+      "mail": "keutschach-see@ktn.gde.at",
       "www": "http://www.keutschach.gv.at"
     }
   },
@@ -2074,7 +2074,7 @@
     },
     "plz": 9161,
     "contact": {
-      "mail": "office@kucos.at",
+      "mail": "maria-rain@ktn.gde.at",
       "www": "http://www.maria-rain.gv.at"
     }
   },
@@ -2195,7 +2195,7 @@
     },
     "plz": 9330,
     "contact": {
-      "mail": "simone.schmidinger@ktn.gde.at",
+      "mail": "althofen@ktn.gde.at",
       "www": "http://www.althofen.gv.at"
     }
   },
@@ -2294,8 +2294,8 @@
     },
     "plz": 9321,
     "contact": {
-      "mail": "antiques@kappel.co.at",
-      "www": "http://www.kappel.co.at"
+      "mail": "kappel-kr@ktn.gde.at",
+      "www": "https://kappel-am-krappfeld.at/"
     }
   },
   "20513": {
@@ -3021,7 +3021,7 @@
     "plz": 9135,
     "contact": {
       "mail": "gemeindeamt@bad-eisenkappel.info",
-      "www": "http://www.eisenkappel.at"
+      "www": "https://www.bad-eisenkappel.info/"
     }
   },
   "20805": {
@@ -3328,8 +3328,8 @@
     },
     "plz": 9560,
     "contact": {
-      "mail": "zuhause@steuerberg.eu",
-      "www": "http://www.steuerberg.co.at"
+      "mail": "steuerberg@ktn.gde.at",
+      "www": "https://www.steuerberg.at/"
     }
   },
   "30101": {
@@ -3350,7 +3350,7 @@
     },
     "plz": 3100,
     "contact": {
-      "mail": "tourismus@st-poelten.gv.at",
+      "mail": "rathaus@st-poelten.gv.at",
       "www": "http://www.st-poelten.gv.at"
     }
   },
@@ -4041,7 +4041,6 @@
     "name": {
       "name": "Traiskirchen"
     },
-    "cmv": true,
     "plz": 2514,
     "contact": {
       "mail": "office@traiskirchen.gv.at",
@@ -4099,7 +4098,7 @@
     },
     "plz": 2405,
     "contact": {
-      "mail": "office@roemerland-carnuntum.at",
+      "mail": "buero@bad-deutsch-altenburg.gv.at",
       "www": "http://www.bad-deutsch-altenburg.gv.at"
     }
   },
@@ -4462,8 +4461,8 @@
     },
     "plz": 2301,
     "contact": {
-      "mail": "none",
-      "www": "none"
+      "mail": "gemeinde-andlersdorf@aon.at",
+      "www": "https://www.noe.gv.at/noe/Andlersdorf.html"
     }
   },
   "30803": {
@@ -4605,8 +4604,8 @@
     },
     "plz": 2282,
     "contact": {
-      "mail": "none",
-      "www": "none"
+      "mail": "gemeinde@grosshofen.gv.at",
+      "www": "https://www.noe.gv.at/noe/grosshofen.html"
     }
   },
   "30824": {
@@ -7344,8 +7343,8 @@
     },
     "plz": 2340,
     "contact": {
-      "mail": "appartements@verberne.at",
-      "www": "http://www.moedling.co.at"
+      "mail": "office@moedling.at",
+      "www": "https://www.moedling.at/"
     }
   },
   "31718": {
@@ -7487,7 +7486,7 @@
     },
     "plz": 2640,
     "contact": {
-      "mail": "presse.niederoesterreich@bmlv.gv.at",
+      "mail": "verwaltung@gemeinde-enzenreith.at",
       "www": "http://www.gemeinde-enzenreith.at"
     }
   },
@@ -7740,7 +7739,7 @@
     },
     "plz": 2662,
     "contact": {
-      "mail": "info@gemeinde-paket.at",
+      "mail": "gemeinde@schwarzauimgebirge.at",
       "www": "https://www.schwarzau-gebirge.gv.at/"
     }
   },
@@ -8972,7 +8971,7 @@
     },
     "plz": 3844,
     "contact": {
-      "mail": "andrea.donesch@chello.at",
+      "mail": "gemeinde@waldkirchen-thaya.at",
       "www": "http://www.waldkirchen-thaya.gv.at"
     }
   },
@@ -9192,7 +9191,7 @@
     },
     "plz": 2751,
     "contact": {
-      "mail": "webmaster@matzendorf.at",
+      "mail": "matzendorf-hoelles@gmx.at",
       "www": "http://www.matzendorf.gv.at"
     }
   },
@@ -9621,7 +9620,7 @@
     },
     "plz": 3914,
     "contact": {
-      "mail": "office@waldviertler-kernland.at",
+      "mail": "info@waldhausen.gv.at",
       "www": "http://www.waldhausen.gv.at"
     }
   },
@@ -9929,7 +9928,7 @@
     },
     "plz": 5271,
     "contact": {
-      "mail": "office@jofra-werbung.at",
+      "mail": "gemeindeamt@moosbach.at",
       "www": "http://www.moosbach.at"
     }
   },
@@ -10204,8 +10203,8 @@
     },
     "plz": 4070,
     "contact": {
-      "mail": "andreas.humer@eferding.at",
-      "www": "http://www.eferding.gv.at"
+      "mail": "gemeinde@eferding.at",
+      "www": "https://www.eferding.at/system/web/default.aspx?"
     }
   },
   "40504": {
@@ -10248,7 +10247,7 @@
     },
     "plz": 4070,
     "contact": {
-      "mail": "gerald.fuchsmayr@hinzenbach.ooe.gv.at",
+      "mail": "gemeindeamt@hinzenbach.ooe.gv.at",
       "www": "http://www.hinzenbach.at"
     }
   },
@@ -10413,8 +10412,8 @@
     },
     "plz": 4262,
     "contact": {
-      "mail": "info@muehlviertel.at",
-      "www": "http://www.leopoldschlag.at"
+      "mail": "gemeinde@leopoldschlag.ooe.gv.at",
+      "www": "http://www.leopoldschlag.ooe.gv.at/"
     }
   },
   "40611": {
@@ -10512,8 +10511,8 @@
     },
     "plz": 4274,
     "contact": {
-      "mail": "tdw@gross.schoenau.at",
-      "www": "http://www.schoenau.at"
+      "mail": "gemeinde@schoenau-im.at",
+      "www": "http://www.schoenau-im.at/"
     }
   },
   "40620": {
@@ -10677,8 +10676,8 @@
     },
     "plz": 4645,
     "contact": {
-      "mail": "info@traunsee-almtal.at",
-      "www": "http://www.gruenau-almtal.at"
+      "mail": "gemeinde@gruenau.ooe.gv.at",
+      "www": "https://www.gruenau.ooe.gv.at/"
     }
   },
   "40708": {
@@ -11458,8 +11457,8 @@
     },
     "plz": 4053,
     "contact": {
-      "mail": "fragmich@ansfelden.co.at",
-      "www": "http://www.ansfelden.co.at"
+      "mail": "stadtgemeinde@ansfelden.at",
+      "www": "https://www.ansfelden.at/"
     }
   },
   "41003": {
@@ -11634,7 +11633,7 @@
     },
     "plz": 4533,
     "contact": {
-      "mail": "kuehboeck@piberbach.ooe.gv.at",
+      "mail": "gemeinde@piberbach.ooe.gv.at ",
       "www": "http://www.piberbach.at"
     }
   },
@@ -11733,8 +11732,8 @@
     },
     "plz": 4360,
     "contact": {
-      "mail": "info@baumfried.at",
-      "www": "http://www.grein.co.at"
+      "mail": "stadtamt@grein.ooe.gv.at",
+      "www": "http://www.grein.ooe.gv.at/"
     }
   },
   "41106": {
@@ -11799,7 +11798,7 @@
     },
     "plz": 4310,
     "contact": {
-      "mail": "gu@mauthausen.at",
+      "mail": "gemeinde@mauthausen.at",
       "www": "http://www.mauthausen.at"
     }
   },
@@ -12393,8 +12392,8 @@
     },
     "plz": 4152,
     "contact": {
-      "mail": "gemeindeamt@sarleinsbach.at",
-      "www": "http://www.atzesberg.ooe.gv.at"
+      "mail": "sepp.scharinger@a1.net",
+      "www": "https://www.sarleinsbach.at/Marktgemeinde/Gemeinde_Atzesberg/Buergermeister"
     }
   },
   "41307": {
@@ -13174,7 +13173,7 @@
     },
     "plz": 4463,
     "contact": {
-      "mail": "gemeinde@gro√É¬É√Ç¬üraming.ooe.gv.at",
+      "mail": "gemeinde@grossraming.ooe.gv.at",
       "www": "http://www.grossraming.at"
     }
   },
@@ -13504,8 +13503,8 @@
     },
     "plz": 4100,
     "contact": {
-      "mail": "webmaster@ottensheim.at",
-      "www": "http://www.ottensheim.at"
+      "mail": "gemeinde@ottensheim.ooe.gv.at",
+      "www": "https://www.ottensheim.ooe.gv.at/"
     }
   },
   "41618": {
@@ -14098,7 +14097,7 @@
     },
     "plz": 4841,
     "contact": {
-      "mail": "asamer@ungenach.ooe.gv.at",
+      "mail": "gemeinde@ungenach.ooe.gv.at",
       "www": "http://www.ungenach.at"
     }
   },
@@ -14505,8 +14504,8 @@
     },
     "plz": 5440,
     "contact": {
-      "mail": "info@hauslwirt.at",
-      "www": "http://www.golling.at"
+      "mail": "gemeinde@golling.salzburg.at",
+      "www": "https://www.golling.salzburg.at/"
     }
   },
   "50205": {
@@ -14516,7 +14515,7 @@
     },
     "plz": 5400,
     "contact": {
-      "mail": "%E2%80%8Brechnungen@hallein.gv.at",
+      "mail": "stadtamt@hallein.gv.at",
       "www": "http://www.hallein.gv.at"
     }
   },
@@ -14527,7 +14526,7 @@
     },
     "plz": 5425,
     "contact": {
-      "mail": "gem.krispl@salzburg.at",
+      "mail": "gemeindeamt@krispl.gv.at",
       "www": "http://www.krispl.gv.at"
     }
   },
@@ -14736,8 +14735,8 @@
     },
     "plz": 5330,
     "contact": {
-      "mail": "info@fuschlseeregion.com",
-      "www": "http://www.fuschlsee.at"
+      "mail": "gemeinde@fuschlamsee.at",
+      "www": "https://www.fuschlamsee.at/"
     }
   },
   "50313": {
@@ -14901,8 +14900,8 @@
     },
     "plz": 5162,
     "contact": {
-      "mail": "info@salzburger-seenland.at",
-      "www": "http://www.obertrum.co.at"
+      "mail": "office@obertrum.at",
+      "www": "https://www.obertrum.at/"
     }
   },
   "50328": {
@@ -15462,8 +15461,8 @@
     },
     "plz": 5733,
     "contact": {
-      "mail": "office@2getmore.at",
-      "www": "http://www.bramberg.at"
+      "mail": "gemeinde@bramberg.at",
+      "www": "https://www.bramberg.salzburg.at/"
     }
   },
   "50602": {
@@ -15638,8 +15637,8 @@
     },
     "plz": 5661,
     "contact": {
-      "mail": "info@raurisertal.at",
-      "www": "http://www.rauris.co.at"
+      "mail": "gemeinde@rauris.net",
+      "www": "https://www.rauris.net/"
     }
   },
   "50618": {
@@ -15649,8 +15648,8 @@
     },
     "plz": 5753,
     "contact": {
-      "mail": "office@gumplod.at",
-      "www": "http://www.saalbach-hinterglemm.at"
+      "mail": "gemeinde@saalbach.at",
+      "www": "https://www.saalbach.or.at/"
     }
   },
   "50619": {
@@ -15672,7 +15671,7 @@
     "plz": 5092,
     "contact": {
       "mail": "gemeinde@stmartin.at",
-      "www": "https://www.stmartin.at/Home.10.0.html"
+      "www": "https://www.stmartin.at/"
     }
   },
   "50621": {
@@ -15682,8 +15681,8 @@
     },
     "plz": 5724,
     "contact": {
-      "mail": "welcome@mittersill.info",
-      "www": "http://www.stuhlfelden.at"
+      "mail": "gemeindeamt@stuhlfelden.salzburg.at",
+      "www": "https://www.stuhlfelden.salzburg.at/"
     }
   },
   "50622": {
@@ -15770,7 +15769,7 @@
     },
     "plz": 8010,
     "contact": {
-      "mail": "buergerinnenamt@stadt.graz.at",
+      "mail": "buergermeisterin.kahr@stadt.graz.at",
       "www": "http://www.graz.gv.at"
     }
   },
@@ -16133,7 +16132,7 @@
     },
     "plz": 8113,
     "contact": {
-      "mail": "alfred.brettenthaler@gmx.at",
+      "mail": "gde@stiwoll.gv.at",
       "www": "http://www.stiwoll.at"
     }
   },
@@ -16144,7 +16143,7 @@
     },
     "plz": 8051,
     "contact": {
-      "mail": "dorfassistenz@thal.at",
+      "mail": "thal@sulzberg.at",
       "www": "http://www.thal.at"
     }
   },
@@ -16486,7 +16485,7 @@
     "plz": 8444,
     "contact": {
       "mail": "gde@st-andrae-hoech.steiermark.at",
-      "www": "http://www.st-andrae-hoech.atstartseite/"
+      "www": "http://st-andrae-hoech.at"
     }
   },
   "61032": {
@@ -16881,8 +16880,8 @@
     },
     "plz": 8990,
     "contact": {
-      "mail": "info@ausseerland.at",
-      "www": "https://ausseerland.salzkammergut.at/"
+      "mail": "gemeinde@badaussee.at",
+      "www": "https://www.badaussee.at/"
     }
   },
   "61213": {
@@ -17013,8 +17012,8 @@
     },
     "plz": 8983,
     "contact": {
-      "mail": "haustechnik@chello.at",
-      "www": "http://www.bad.co.at"
+      "mail": "gde@bad-mitterndorf.gv.at",
+      "www": "https://gemeinde.bad-mitterndorf.at/de/"
     }
   },
   "61256": {
@@ -17145,8 +17144,8 @@
     },
     "plz": 8950,
     "contact": {
-      "mail": "office@sysup.at",
-      "www": "http://www.stainach.at"
+      "mail": "gde@stainach-puergg.gv.at",
+      "www": "https://www.stainach-puergg.gv.at/"
     }
   },
   "61410": {
@@ -17156,7 +17155,7 @@
     },
     "plz": 8822,
     "contact": {
-      "mail": "mg.muehlen@gmail.com",
+      "mail": "gemeinde@muehlen.at",
       "www": "http://www.muehlen.at"
     }
   },
@@ -17497,7 +17496,7 @@
     },
     "plz": 8183,
     "contact": {
-      "mail": "bgm.gruber@live.at",
+      "mail": "gde@floing.steiermark.at",
       "www": "http://www.floing.at"
     }
   },
@@ -17530,7 +17529,7 @@
     },
     "plz": 8200,
     "contact": {
-      "mail": "office@macherfenster.at",
+      "mail": "gde@hofstaetten-raab.gv.at",
       "www": "http://www.hofstaetten.at"
     }
   },
@@ -17596,8 +17595,8 @@
     },
     "plz": 8182,
     "contact": {
-      "mail": "info@apfelstrasse.at",
-      "www": "http://www.puchbeiweiz.at"
+      "mail": "gde@puch-weiz.gv.at",
+      "www": "https://www.puch-weiz.gv.at/"
     }
   },
   "61741": {
@@ -17838,7 +17837,7 @@
     },
     "plz": 8785,
     "contact": {
-      "mail": "urlaub@murau-murtal.at",
+      "mail": "gde@hohentauern.gv.at",
       "www": "http://www.hohentauern.at"
     }
   },
@@ -17959,8 +17958,8 @@
     },
     "plz": 8742,
     "contact": {
-      "mail": "tischlerei.baumgartner@obdach.at",
-      "www": "http://www.obdach.at"
+      "mail": "gemeinde@obdach.gv.at",
+      "www": "https://marktgemeinde-obdach.at/"
     }
   },
   "62043": {
@@ -18091,8 +18090,8 @@
     },
     "plz": 8684,
     "contact": {
-      "mail": "info@pellets-portal.at",
-      "www": "http://www.spital.co.at"
+      "mail": "gemeinde@spital-semmering.gv.at",
+      "www": "https://www.spitalamsemmering.com/"
     }
   },
   "62132": {
@@ -18179,8 +18178,8 @@
     },
     "plz": 8680,
     "contact": {
-      "mail": "supportmailx@xbaton.at",
-      "www": "http://www.muerzzuschlag.gv.at"
+      "mail": "stadtamt@mzz.at",
+      "www": "https://www.muerzzuschlag.at/"
     }
   },
   "62144": {
@@ -18201,7 +18200,7 @@
     },
     "plz": 8662,
     "contact": {
-      "mail": "gerlinde.zottler@st-barbara.gv.at",
+      "mail": "gde@st-barbara.gv.at",
       "www": "https://www.st-barbara.gv.at"
     }
   },
@@ -18366,7 +18365,7 @@
     },
     "plz": 8243,
     "contact": {
-      "mail": "luckerbauer@pinggau.gv.at",
+      "mail": "gde@pinggau.gv.at",
       "www": "http://www.pinggau.gv.at"
     }
   },
@@ -18432,8 +18431,8 @@
     },
     "plz": 8362,
     "contact": {
-      "mail": "webmaster@soechau.at",
-      "www": "http://www.soechau.at"
+      "mail": "gde@soechau.gv.at",
+      "www": "http://soechau.steiermark.at"
     }
   },
   "62256": {
@@ -18597,7 +18596,7 @@
     },
     "plz": 8294,
     "contact": {
-      "mail": "juergen.peindl@rohr-bei-hartberg.at",
+      "mail": "gde@rohr-bei-hartberg.at",
       "www": "http://www.rohr-bei-hartberg.at"
     }
   },
@@ -18740,7 +18739,7 @@
     },
     "plz": 8344,
     "contact": {
-      "mail": "webmaster@bad-gleichenberg.gv.at",
+      "mail": "gde@bad-gleichenberg.gv.at",
       "www": "http://www.bad-gleichenberg.gv.at"
     }
   },
@@ -19576,7 +19575,7 @@
     },
     "plz": 6408,
     "contact": {
-      "mail": "gemeinde@petrtnau.tirol.gv.at",
+      "mail": "gemeinde@pettnau.tirol.gv.at",
       "www": "http://www.pettnau.at"
     }
   },
@@ -19631,8 +19630,8 @@
     },
     "plz": 6103,
     "contact": {
-      "mail": "info.reith@seefeld.com",
-      "www": "http://www.reithbeiseefeld.at"
+      "mail": "gemeinde@reith-seefeld.at%20",
+      "www": "https://www.reith-seefeld.at/"
     }
   },
   "70345": {
@@ -19708,8 +19707,8 @@
     },
     "plz": 6100,
     "contact": {
-      "mail": "info@seefeld.com",
-      "www": "http://www.seefeld-tirol.at"
+      "mail": "gemeinde@seefeld.eu",
+      "www": "https://www.gemeinde-seefeld.eu/"
     }
   },
   "70352": {
@@ -20324,8 +20323,8 @@
     },
     "plz": 6241,
     "contact": {
-      "mail": "erwachsenenschule@angerberg.at",
-      "www": "http://www.radfeld.at"
+      "mail": "gemeinde@radfeld.tirol.gv.at",
+      "www": "https://www.radfeld.tirol.gv.at/"
     }
   },
   "70521": {
@@ -20896,7 +20895,7 @@
     },
     "plz": 9992,
     "contact": {
-      "mail": "office@permedia.at",
+      "mail": "office@gemeinde-iselsberg.at",
       "www": "http://www.iselsberg-stronach.at"
     }
   },
@@ -20962,8 +20961,8 @@
     },
     "plz": 9971,
     "contact": {
-      "mail": "welcome@sunmatrei.com",
-      "www": "http://www.matrei-osttirol.at"
+      "mail": "gemeinde@matrei-ost.tirol.gv.at",
+      "www": "http://www.matrei-ost.tirol.gv.at"
     }
   },
   "70718": {
@@ -22491,7 +22490,7 @@
     },
     "plz": 6912,
     "contact": {
-      "mail": "gemeinde@hoerbran.at",
+      "mail": "gemeinde@hoerbranz.at",
       "www": "http://www.hoerbranz.at"
     }
   },
@@ -22667,8 +22666,8 @@
     },
     "plz": 6888,
     "contact": {
-      "mail": "info@warth-schroecken.com",
-      "www": "https://www.warth-schroecken.at"
+      "mail": "gemeinde@schroecken.at",
+      "www": "https://www.gemeinde-schroecken.at/"
     }
   },
   "80235": {
@@ -22698,7 +22697,7 @@
     "name": {
       "name": "Sibratsgfäll"
     },
-    "plz": 6767,
+    "plz": 6952,
     "contact": {
       "mail": "sibra@sibra.at",
       "www": "http://www.sibra.at/index.php"
@@ -22709,7 +22708,7 @@
     "name": {
       "name": "Sulzberg"
     },
-    "plz": 6952,
+    "plz": 6934,
     "contact": {
       "mail": "gemeinde@sulzberg.at",
       "www": "http://www.sulzberg.at"
@@ -22720,10 +22719,10 @@
     "name": {
       "name": "Warth"
     },
-    "plz": 6934,
+    "plz": 6767,
     "contact": {
-      "mail": "info@warth-schroecken.com",
-      "www": "https://www.warth-schroecken.at/"
+      "mail": "gemeinde@warth.at",
+      "www": "https://www.gemeinde-warth.at/"
     }
   },
   "80240": {
@@ -22731,7 +22730,7 @@
     "name": {
       "name": "Wolfurt"
     },
-    "plz": 6767,
+    "plz": 6922,
     "contact": {
       "mail": "gemeinde@wolfurt.at",
       "www": "http://www.wolfurt.at"
@@ -22742,7 +22741,7 @@
     "name": {
       "name": "Dornbirn"
     },
-    "plz": 6922,
+    "plz": 6850,
     "contact": {
       "mail": "stadt@dornbirn.at",
       "www": "https://www.dornbirn.at/"
@@ -22753,7 +22752,7 @@
     "name": {
       "name": "Hohenems"
     },
-    "plz": 6850,
+    "plz": 6845,
     "contact": {
       "mail": "stadt@hohenems.at",
       "www": "https://www.hohenems.at"
@@ -22764,7 +22763,7 @@
     "name": {
       "name": "Lustenau"
     },
-    "plz": 6845,
+    "plz": 6890,
     "contact": {
       "mail": "gemeindeamt@lustenau.at",
       "www": "http://www.lustenau.gv.at"
@@ -22775,7 +22774,7 @@
     "name": {
       "name": "Altach"
     },
-    "plz": 6890,
+    "plz": 6844,
     "contact": {
       "mail": "gemeinde@altach.at",
       "www": "http://www.altach.at"
@@ -22808,7 +22807,7 @@
     "name": {
       "name": "Feldkirch"
     },
-    "plz": 6822,
+    "plz": 6800,
     "contact": {
       "mail": "info@feldkirch.at",
       "www": "http://www.feldkirch.gv.at"
@@ -22819,7 +22818,7 @@
     "name": {
       "name": "Frastanz"
     },
-    "plz": 6800,
+    "plz": 6820,
     "contact": {
       "mail": "buergerservice@frastanz.at",
       "www": "http://www.frastanz.at"
@@ -22830,7 +22829,7 @@
     "name": {
       "name": "Fraxern"
     },
-    "plz": 6820,
+    "plz": 6833,
     "contact": {
       "mail": "gemeinde@fraxern.at",
       "www": "http://www.fraxern.at"
@@ -22841,7 +22840,7 @@
     "name": {
       "name": "Göfis"
     },
-    "plz": 6833,
+    "plz": 6811,
     "contact": {
       "mail": "gemeindeamt@goefis.at",
       "www": "http://www.goefis.at"
@@ -22852,7 +22851,7 @@
     "name": {
       "name": "Götzis"
     },
-    "plz": 6811,
+    "plz": 6840,
     "contact": {
       "mail": "marktgemeinde@goetzis.at",
       "www": "http://www.goetzis.at"
@@ -22863,7 +22862,7 @@
     "name": {
       "name": "Klaus"
     },
-    "plz": 6840,
+    "plz": 6833,
     "contact": {
       "mail": "gemeinde@klaus.cnv.at",
       "www": "https://www.klaus.at"
@@ -22874,7 +22873,7 @@
     "name": {
       "name": "Koblach"
     },
-    "plz": 6833,
+    "plz": 6842,
     "contact": {
       "mail": "gemeinde@koblach.at",
       "www": "http://www.koblach.at"
@@ -22885,7 +22884,7 @@
     "name": {
       "name": "Laterns"
     },
-    "plz": 6842,
+    "plz": 6830,
     "contact": {
       "mail": "gemeindeamt@laternsertal.at",
       "www": "http://www.laterns.at"
@@ -22896,7 +22895,7 @@
     "name": {
       "name": "Mäder"
     },
-    "plz": 6830,
+    "plz": 6841,
     "contact": {
       "mail": "gemeinde@maeder.at",
       "www": "https://maeder.at/"
@@ -22907,7 +22906,7 @@
     "name": {
       "name": "Meiningen"
     },
-    "plz": 6841,
+    "plz": 6812,
     "contact": {
       "mail": "gemeinde@meiningen.at",
       "www": "http://www.meiningen.at"
@@ -22918,7 +22917,7 @@
     "name": {
       "name": "Rankweil"
     },
-    "plz": 6812,
+    "plz": 6830,
     "contact": {
       "mail": "marktgemeinde@rankweil.at",
       "www": "http://www.rankweil.at"
@@ -22929,7 +22928,7 @@
     "name": {
       "name": "Röns"
     },
-    "plz": 6830,
+    "plz": 6822,
     "contact": {
       "mail": "gemeinde@roens.at",
       "www": "http://www.roens.at"
@@ -22940,7 +22939,7 @@
     "name": {
       "name": "Röthis"
     },
-    "plz": 6822,
+    "plz": 6832,
     "contact": {
       "mail": "gemeinde@roethis.at",
       "www": "http://www.roethis.at"
@@ -22951,7 +22950,7 @@
     "name": {
       "name": "Satteins"
     },
-    "plz": 6832,
+    "plz": 6822,
     "contact": {
       "mail": "gemeinde@satteins.net",
       "www": "https://www.satteins.net"
@@ -22962,7 +22961,7 @@
     "name": {
       "name": "Schlins"
     },
-    "plz": 6822,
+    "plz": 6824,
     "contact": {
       "mail": "info@schlins.at",
       "www": "http://www.schlins.at"
@@ -22973,7 +22972,7 @@
     "name": {
       "name": "Schnifis"
     },
-    "plz": 6824,
+    "plz": 6822,
     "contact": {
       "mail": "gemeinde@schnifis.at",
       "www": "http://www.schnifis.at"
@@ -22984,7 +22983,7 @@
     "name": {
       "name": "Sulz"
     },
-    "plz": 6822,
+    "plz": 6832,
     "contact": {
       "mail": "info@gemeinde-sulz.at",
       "www": "https://www.gemeinde-sulz.at/"
@@ -22995,7 +22994,7 @@
     "name": {
       "name": "Übersaxen"
     },
-    "plz": 6832,
+    "plz": 6834,
     "contact": {
       "mail": "gemeinde@uebersaxen.at",
       "www": "http://www.übersaxen.at"
@@ -23006,7 +23005,7 @@
     "name": {
       "name": "Viktorsberg"
     },
-    "plz": 6834,
+    "plz": 6836,
     "contact": {
       "mail": "gemeinde@viktorsberg.at",
       "www": "http://www.viktorsberg.at"
@@ -23017,7 +23016,7 @@
     "name": {
       "name": "Weiler"
     },
-    "plz": 6833,
+    "plz": 6837,
     "contact": {
       "mail": "gemeindeamt@gemeinde-weiler.at",
       "www": "http://www.gemeinde-weiler.at"
@@ -23035,253 +23034,253 @@
     }
   },
   "90101": {
-    "id": "90101",
+    "id": 90101,
     "name": {
       "name": "Wien Innere Stadt"
     },
-    "plz": "1010",
+    "plz": 1010,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90201": {
-    "id": "90201",
+    "id": 90201,
     "name": {
       "name": "Wien Leopoldstadt"
     },
-    "plz": "1020",
+    "plz": 1020,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90301": {
-    "id": "90301",
+    "id": 90301,
     "name": {
       "name": "Wien Landstraße"
     },
-    "plz": "1030",
+    "plz": 1030,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90401": {
-    "id": "90401",
+    "id": 90401,
     "name": {
       "name": "Wien Wieden"
     },
-    "plz": "1040",
+    "plz": 1040,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90501": {
-    "id": "90501",
+    "id": 90501,
     "name": {
       "name": "Wien Margareten"
     },
-    "plz": "1050",
+    "plz": 1050,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90601": {
-    "id": "90601",
+    "id": 90601,
     "name": {
       "name": "Wien Mariahilf"
     },
-    "plz": "1060",
+    "plz": 1060,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90701": {
-    "id": "90701",
+    "id": 90701,
     "name": {
       "name": "Wien Neubau"
     },
-    "plz": "1070",
+    "plz": 1070,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90801": {
-    "id": "90801",
+    "id": 90801,
     "name": {
       "name": "Wien Josefstadt"
     },
-    "plz": "1080",
+    "plz": 1080,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "90901": {
-    "id": "90901",
+    "id": 90901,
     "name": {
       "name": "Wien Alsergrund"
     },
-    "plz": "1090",
+    "plz": 1090,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91001": {
-    "id": "91001",
+    "id": 91001,
     "name": {
       "name": "Wien Favoriten"
     },
-    "plz": "1100",
+    "plz": 1100,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91101": {
-    "id": "91101",
+    "id": 91101,
     "name": {
       "name": "Wien Simmering"
     },
-    "plz": "1110",
+    "plz": 1110,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91201": {
-    "id": "91201",
+    "id": 91201,
     "name": {
       "name": "Wien Meidling"
     },
-    "plz": "1120",
+    "plz": 1120,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91301": {
-    "id": "91301",
+    "id": 91301,
     "name": {
       "name": "Wien Hietzing"
     },
-    "plz": "1130",
+    "plz": 1130,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91401": {
-    "id": "91401",
+    "id": 91401,
     "name": {
       "name": "Wien Penzing"
     },
-    "plz": "1140",
+    "plz": 1140,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91501": {
-    "id": "91501",
+    "id": 91501,
     "name": {
-      "name": "Wien Rudolfsheim-Fünfhaus"
+      "name": "Wien Fünfhaus"
     },
-    "plz": "1150",
+    "plz": 1150,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91601": {
-    "id": "91601",
+    "id": 91601,
     "name": {
       "name": "Wien Ottakring"
     },
-    "plz": "1160",
+    "plz": 1160,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91701": {
-    "id": "91701",
+    "id": 91701,
     "name": {
       "name": "Wien Hernals"
     },
-    "plz": "1170",
+    "plz": 1170,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91801": {
-    "id": "91801",
+    "id": 91801,
     "name": {
       "name": "Wien Währing"
     },
-    "plz": "1180",
+    "plz": 1180,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "91901": {
-    "id": "91901",
+    "id": 91901,
     "name": {
       "name": "Wien Döbling"
     },
-    "plz": "1190",
+    "plz": 1190,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "92001": {
-    "id": "92001",
+    "id": 92001,
     "name": {
       "name": "Wien Brigittenau"
     },
-    "plz": "1200",
+    "plz": 1200,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "92101": {
-    "id": "92101",
+    "id": 92101,
     "name": {
       "name": "Wien Floridsdorf"
     },
-    "plz": "1210",
+    "plz": 1210,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "92201": {
-    "id": "92201",
+    "id": 92201,
     "name": {
       "name": "Wien Donaustadt"
     },
-    "plz": "1220",
+    "plz": 1220,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
     }
   },
   "92301": {
-    "id": "92301",
+    "id": 92301,
     "name": {
       "name": "Wien Liesing"
     },
-    "plz": "1230",
+    "plz": 1230,
     "contact": {
       "mail": "post@ma19.wien.gv.at",
       "www": "https://www.wien.gv.at/stadtentwicklung/architektur/oeffentliche-bauten/"
